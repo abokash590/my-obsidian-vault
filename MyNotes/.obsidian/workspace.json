@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "GCD (Greatest Common Divisor)"
             }
+          },
+          {
+            "id": "7cd277b905d46e4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dfda.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dfda"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -103,8 +117,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -221,13 +234,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "244b2f5d4f6ce0a4",
+  "active": "7cd277b905d46e4c",
   "lastOpenFiles": [
+    "NUMBER THEORY/GCD (Greatest Common Divisor).md",
+    "dfda.md",
+    "abar",
     "GRAPH THEORY/Subtree Size in a Tree.md",
-    "Untitled.md",
     "GRAPH THEORY/Level of Tree (DFS).md",
     "NUMBER THEORY/Circular Traversal & GCD.md",
-    "NUMBER THEORY/GCD (Greatest Common Divisor).md",
     "NUMBER THEORY/00_Number Theory.md",
     "GRAPH THEORY/Breadth-First Search (BFS).md",
     "NUMBER THEORY",
@@ -250,7 +264,6 @@
     "Dijkstra.md",
     "BASIC ALGO/00_Basic_Algo.md",
     "STL/Set.md",
-    "TECHNIQUES/Grid Traversal (dx, dy).md",
     "Untitled.base",
     "GRAPH THEORY",
     "BASIC ALGO",
