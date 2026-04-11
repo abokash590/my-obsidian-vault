@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dfda.md",
-                "mode": "source",
+                "file": "GRAPH THEORY/Breadth-First Search (BFS).md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dfda"
+              "title": "Breadth-First Search (BFS)"
             }
           }
         ],
@@ -84,7 +84,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -236,11 +236,13 @@
   },
   "active": "7cd277b905d46e4c",
   "lastOpenFiles": [
-    "NUMBER THEORY/GCD (Greatest Common Divisor).md",
+    "STL/Multiset.md",
+    "GRAPH THEORY/Depth-First Search (DFS).md",
+    "GRAPH THEORY/Level of Tree (DFS).md",
     "dfda.md",
+    "NUMBER THEORY/GCD (Greatest Common Divisor).md",
     "abar",
     "GRAPH THEORY/Subtree Size in a Tree.md",
-    "GRAPH THEORY/Level of Tree (DFS).md",
     "NUMBER THEORY/Circular Traversal & GCD.md",
     "NUMBER THEORY/00_Number Theory.md",
     "GRAPH THEORY/Breadth-First Search (BFS).md",
@@ -259,7 +261,6 @@
     "GRAPH THEORY/Number of Connected Graph.md",
     "GRAPH THEORY/Multi-Source BFS.md",
     "GRAPH THEORY/Shortest Path (BFS).md",
-    "GRAPH THEORY/Depth-First Search (DFS).md",
     "GRAPH THEORY/DFS on Trees vs Graphs.md",
     "Dijkstra.md",
     "BASIC ALGO/00_Basic_Algo.md",
