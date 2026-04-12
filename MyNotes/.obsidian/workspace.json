@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b6a764adc1b94854",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GRAPH THEORY/Breadth-First Search (BFS).md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Breadth-First Search (BFS)"
-            }
-          },
-          {
-            "id": "34d5f11d2442d044",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GRAPH THEORY/Breadth-First Search (BFS).md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Breadth-First Search (BFS)"
-            }
-          },
-          {
-            "id": "0af893b19e7a0d92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NUMBER THEORY/GCD (Greatest Common Divisor).md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GCD (Greatest Common Divisor)"
-            }
-          },
-          {
             "id": "7cd277b905d46e4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GRAPH THEORY/Breadth-First Search (BFS).md",
+                "file": "GCD & LCM.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Breadth-First Search (BFS)"
+              "title": "GCD & LCM"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -236,16 +193,17 @@
   },
   "active": "7cd277b905d46e4c",
   "lastOpenFiles": [
+    "NUMBER THEORY/GCD (Greatest Common Divisor).md",
+    "GRAPH THEORY/Breadth-First Search (BFS).md",
+    "GCD & LCM.md",
     "STL/Multiset.md",
     "GRAPH THEORY/Depth-First Search (DFS).md",
     "GRAPH THEORY/Level of Tree (DFS).md",
     "dfda.md",
-    "NUMBER THEORY/GCD (Greatest Common Divisor).md",
     "abar",
     "GRAPH THEORY/Subtree Size in a Tree.md",
     "NUMBER THEORY/Circular Traversal & GCD.md",
     "NUMBER THEORY/00_Number Theory.md",
-    "GRAPH THEORY/Breadth-First Search (BFS).md",
     "NUMBER THEORY",
     "BITWISE OPERATION/Bitset.md",
     "BITWISE OPERATION/00_Bitwise_Operation.md",
@@ -264,7 +222,6 @@
     "GRAPH THEORY/DFS on Trees vs Graphs.md",
     "Dijkstra.md",
     "BASIC ALGO/00_Basic_Algo.md",
-    "STL/Set.md",
     "Untitled.base",
     "GRAPH THEORY",
     "BASIC ALGO",

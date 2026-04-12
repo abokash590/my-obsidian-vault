@@ -91,4 +91,5 @@ long long extended_gcd(long long a, long long b, long long &x, long long &y) {
 ---
 # Tricks
 - [[Circular Traversal & GCD]]
+- [[GCD & LCM]]
 - 
