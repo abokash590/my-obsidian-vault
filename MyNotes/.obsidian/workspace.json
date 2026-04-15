@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STL/Deque.md",
+                "file": "STL/Queue.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deque"
+              "title": "Queue"
             }
           }
         ]
@@ -193,6 +193,7 @@
   },
   "active": "7cd277b905d46e4c",
   "lastOpenFiles": [
+    "STL/Deque.md",
     "STL/Vector.md",
     "NUMBER THEORY/GCD & LCM.md",
     "NUMBER THEORY/GCD (Greatest Common Divisor).md",
@@ -221,7 +222,6 @@
     "GRAPH THEORY/Multi-Source BFS.md",
     "GRAPH THEORY/Shortest Path (BFS).md",
     "GRAPH THEORY/DFS on Trees vs Graphs.md",
-    "Dijkstra.md",
     "Untitled.base",
     "GRAPH THEORY",
     "BASIC ALGO",

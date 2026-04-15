@@ -11,12 +11,12 @@
 | **Pop** | `q.pop();` | Removes the element from the front | $O(1)$ |
 | **Emplace** | `q.emplace(x);` | Directly constructs and adds $x$ at the back | $O(1)$ |
 ### 3. Access & Capacity
-| Task | Syntax | Description | Time Complexity |
-| :--- | :--- | :--- | :--- |
-| **Front Access** | `q.front();` | Returns the first element | $O(1)$ |
-| **Back Access** | `q.back();` | Returns the last element | $O(1)$ |
-| **Size** | `q.size();` | Returns the number of elements in the queue | $O(1)$ |
-| **Empty Check** | `q.empty();` | Returns `true` if queue is empty | $O(1)$ |
+| Task             | Syntax       | Description                                 | Time Complexity |
+| :--------------- | :----------- | :------------------------------------------ | :-------------- |
+| **Front Access** | `q.front();` | Returns the first element                   | $O(1)$          |
+| **Back Access**  | `q.back();`  | Returns the last element                    | $O(1)$          |
+| **Size**         | `q.size();`  | Returns the number of elements in the queue | $O(1)$          |
+| **Empty Check**  | `q.empty();` | Returns `true` if queue is empty            | $O(1)$          |
 ### ### **4. Traversal & Swap**
 | Operation | Syntax | Description | Time Complexity |
 | :--- | :--- | :--- | :--- |
