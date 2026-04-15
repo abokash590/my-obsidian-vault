@@ -1,2 +1,3 @@
 - [[GCD (Greatest Common Divisor)]]
+- [[Prime Number Estimation (CP-Library)]]
 - 
