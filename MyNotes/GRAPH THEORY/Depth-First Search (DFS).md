@@ -82,4 +82,5 @@ void dfs(int u) {
 - [[DFS on Trees vs Graphs]]
 - [[Level of Tree (DFS)]]
 - [[Tree Diameter (DFS Approach)]]
+- [[Weighted Graph (Basics & Traversal]]
 - 

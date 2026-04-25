@@ -11,10 +11,14 @@
             "id": "7cd277b905d46e4c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Weighted Graph (Basics & Traversal.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Weighted Graph (Basics & Traversal"
             }
           }
         ]
@@ -187,11 +191,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3d0cb96ab97a7460",
+  "active": "7cd277b905d46e4c",
   "lastOpenFiles": [
+    "GRAPH THEORY/Depth-First Search (DFS).md",
+    "Weighted Graph (Basics & Traversal.md",
     "GRAPH THEORY/All-Nodes Maximum Distance.md",
     "GRAPH THEORY/Tree Diameter (DFS Approach).md",
-    "GRAPH THEORY/Depth-First Search (DFS).md",
     "GRAPH THEORY/Level of Tree (DFS).md",
     "Tree Diameter (DFS/BFS Approach).md",
     "Tree Diameter (DFS",
@@ -217,7 +222,6 @@
     "BITWISE OPERATION/00_Bitwise_Operation.md",
     "BITWISE OPERATION/Bitset-STL.md",
     "Bitwise-STL.md",
-    "GRAPH THEORY/00_Graph_Theory.md",
     "BITWISE OPERATION",
     "Untitled.base",
     "GRAPH THEORY",
