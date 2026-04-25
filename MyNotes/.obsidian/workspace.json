@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STL/Map.md",
+                "file": "STL/Vector.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Map"
+              "title": "Vector"
             }
           }
         ]
@@ -193,6 +193,8 @@
   },
   "active": "7cd277b905d46e4c",
   "lastOpenFiles": [
+    "STL/Set.md",
+    "STL/Map.md",
     "NUMBER THEORY/Prime Number Estimation (CP-Library).md",
     "NUMBER THEORY/00_Number Theory.md",
     "NUMBER THEORY/GCD & LCM.md",
@@ -220,8 +222,6 @@
     "GRAPH THEORY/Graph Representation.md",
     "GRAPH THEORY/Graph & Tree Terminology.md",
     "GRAPH THEORY/Is_Tree.md",
-    "GRAPH THEORY/Is_Connected.md",
-    "GRAPH THEORY/Number of Connected Graph.md",
     "Untitled.base",
     "GRAPH THEORY",
     "BASIC ALGO",
