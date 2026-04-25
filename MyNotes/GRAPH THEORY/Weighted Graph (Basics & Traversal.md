@@ -38,13 +38,9 @@ void dfs(int u,int p) {
 ---
 
 ### 🔗 Related Topics:
-
-- [[Dijkstra's Algorithm]]
-    
-- [[Minimum Spanning Tree - MST]]
-    
-- [[All-Pairs Shortest Path - Floyd Warshall]]
-    
+- [[XOR Path Query in Trees]]
+- 
+- 
 
 ---
 
