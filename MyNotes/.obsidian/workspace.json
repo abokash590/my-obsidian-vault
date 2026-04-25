@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STL/Vector.md",
+                "file": "GRAPH THEORY/Tree Diameter (DFS Approach).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vector"
+              "title": "Tree Diameter (DFS Approach)"
             }
           }
         ]
@@ -193,6 +193,14 @@
   },
   "active": "7cd277b905d46e4c",
   "lastOpenFiles": [
+    "GRAPH THEORY/Depth-First Search (DFS).md",
+    "GRAPH THEORY/Tree Diameter (DFS Approach).md",
+    "Tree Diameter (DFS/BFS Approach).md",
+    "Tree Diameter (DFS",
+    "GRAPH THEORY/Level of Tree (DFS).md",
+    "GRAPH THEORY/DFS on Trees vs Graphs.md",
+    "GRAPH THEORY/Subtree Size in a Tree.md",
+    "STL/Vector.md",
     "STL/Set.md",
     "STL/Map.md",
     "NUMBER THEORY/Prime Number Estimation (CP-Library).md",
@@ -202,15 +210,11 @@
     "STL/Stack.md",
     "STL/Queue.md",
     "STL/Deque.md",
-    "STL/Vector.md",
     "NUMBER THEORY/GCD (Greatest Common Divisor).md",
     "GRAPH THEORY/Breadth-First Search (BFS).md",
     "STL/Multiset.md",
-    "GRAPH THEORY/Depth-First Search (DFS).md",
-    "GRAPH THEORY/Level of Tree (DFS).md",
     "dfda.md",
     "abar",
-    "GRAPH THEORY/Subtree Size in a Tree.md",
     "NUMBER THEORY",
     "BITWISE OPERATION/Bitset.md",
     "BITWISE OPERATION/00_Bitwise_Operation.md",
@@ -219,9 +223,6 @@
     "GRAPH THEORY/00_Graph_Theory.md",
     "BITWISE OPERATION",
     "2026-04-05.md",
-    "GRAPH THEORY/Graph Representation.md",
-    "GRAPH THEORY/Graph & Tree Terminology.md",
-    "GRAPH THEORY/Is_Tree.md",
     "Untitled.base",
     "GRAPH THEORY",
     "BASIC ALGO",
