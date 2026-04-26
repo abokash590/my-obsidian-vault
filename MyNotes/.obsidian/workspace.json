@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GRAPH THEORY/Weighted Graph (Basics & Traversal.md",
-                "mode": "source",
+                "file": "GRAPH THEORY/Level of Tree (DFS).md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Weighted Graph (Basics & Traversal"
+              "title": "Level of Tree (DFS)"
             }
           }
         ]
@@ -193,18 +193,18 @@
   },
   "active": "7cd277b905d46e4c",
   "lastOpenFiles": [
-    "GRAPH THEORY/XOR Path Query in Trees.md",
+    "GRAPH THEORY/Subtree Size in a Tree.md",
+    "GRAPH THEORY/Tree Diameter (DFS Approach).md",
+    "GRAPH THEORY/All-Nodes Maximum Distance.md",
+    "GRAPH THEORY/Level of Tree (DFS).md",
+    "GRAPH THEORY/Depth-First Search (DFS).md",
+    "GRAPH THEORY/DFS on Trees vs Graphs.md",
     "GRAPH THEORY/Weighted Graph (Basics & Traversal.md",
+    "GRAPH THEORY/XOR Path Query in Trees.md",
     "NUMBER THEORY/GCD & LCM.md",
     "STL/Vector of Pairs.md",
-    "GRAPH THEORY/Depth-First Search (DFS).md",
-    "GRAPH THEORY/All-Nodes Maximum Distance.md",
-    "GRAPH THEORY/Tree Diameter (DFS Approach).md",
-    "GRAPH THEORY/Level of Tree (DFS).md",
     "Tree Diameter (DFS/BFS Approach).md",
     "Tree Diameter (DFS",
-    "GRAPH THEORY/DFS on Trees vs Graphs.md",
-    "GRAPH THEORY/Subtree Size in a Tree.md",
     "STL/Vector.md",
     "STL/Set.md",
     "STL/Map.md",
