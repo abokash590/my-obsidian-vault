@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GRAPH THEORY/Level of Tree (DFS).md",
+                "file": "GRAPH THEORY/Depth-First Search (DFS).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Level of Tree (DFS)"
+              "title": "Depth-First Search (DFS)"
             }
           }
         ]
@@ -193,10 +193,10 @@
   },
   "active": "7cd277b905d46e4c",
   "lastOpenFiles": [
-    "GRAPH THEORY/Subtree Size in a Tree.md",
-    "GRAPH THEORY/Tree Diameter (DFS Approach).md",
     "GRAPH THEORY/All-Nodes Maximum Distance.md",
+    "GRAPH THEORY/Tree Diameter (DFS Approach).md",
     "GRAPH THEORY/Level of Tree (DFS).md",
+    "GRAPH THEORY/Subtree Size in a Tree.md",
     "GRAPH THEORY/Depth-First Search (DFS).md",
     "GRAPH THEORY/DFS on Trees vs Graphs.md",
     "GRAPH THEORY/Weighted Graph (Basics & Traversal.md",
