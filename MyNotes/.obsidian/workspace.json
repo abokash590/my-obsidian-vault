@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GRAPH THEORY/Depth-First Search (DFS).md",
+                "file": "STL/Priority Queue.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Depth-First Search (DFS)"
+              "title": "Priority Queue"
             }
           }
         ]
@@ -193,11 +193,13 @@
   },
   "active": "7cd277b905d46e4c",
   "lastOpenFiles": [
+    "STL/Queue.md",
+    "STL/Priority Queue.md",
+    "GRAPH THEORY/Depth-First Search (DFS).md",
     "GRAPH THEORY/All-Nodes Maximum Distance.md",
     "GRAPH THEORY/Tree Diameter (DFS Approach).md",
     "GRAPH THEORY/Level of Tree (DFS).md",
     "GRAPH THEORY/Subtree Size in a Tree.md",
-    "GRAPH THEORY/Depth-First Search (DFS).md",
     "GRAPH THEORY/DFS on Trees vs Graphs.md",
     "GRAPH THEORY/Weighted Graph (Basics & Traversal.md",
     "GRAPH THEORY/XOR Path Query in Trees.md",
@@ -212,7 +214,6 @@
     "NUMBER THEORY/00_Number Theory.md",
     "NUMBER THEORY/Circular Traversal & GCD.md",
     "STL/Stack.md",
-    "STL/Queue.md",
     "STL/Deque.md",
     "NUMBER THEORY/GCD (Greatest Common Divisor).md",
     "GRAPH THEORY/Breadth-First Search (BFS).md",
@@ -221,7 +222,6 @@
     "abar",
     "NUMBER THEORY",
     "BITWISE OPERATION/Bitset.md",
-    "BITWISE OPERATION/00_Bitwise_Operation.md",
     "BITWISE OPERATION",
     "Untitled.base",
     "GRAPH THEORY",
