@@ -83,4 +83,6 @@ void dfs(int u) {
 - [[Level of Tree (DFS)]]
 - [[Tree Diameter (DFS Approach)]]
 - [[Weighted Graph (Basics & Traversal]]
+- [[Bi-coloring (Bipartite Graph)]]
+- [[Cycle Detection (Undirected Graph)]]
 - 
