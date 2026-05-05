@@ -1,0 +1,93 @@
+
+
+**Definition:** একটি **Directed Acyclic Graph (DAG)** এর নোডগুলোর এমন একটি লিনিয়ার বিন্যাস যেখানে প্রতিটি ডাইরেক্টেড এজ $u \to v$ এর জন্য, তালিকায় $u$ অবশ্যই $v$ এর আগে অবস্থান করবে।
+
+### 📌 Key Insights & Speciality
+
+- **Indegree Dependency:** এই অ্যালগরিদমের মূল ভিত্তি হলো **Indegree** (একটি নোডে কতগুলো এজ প্রবেশ করছে)। কোনো নোডের ইনডিগ্রি $0$ হওয়ার মানে হলো তার ওপর আর কোনো নির্ভরতা (dependency) নেই।
+    
+- **Lexicographical Smallest Order:** যদি একাধিক নোডের ইনডিগ্রি $0$ হয়, তবে সেগুলোর মধ্যে কোনো পারস্পরিক নির্ভরতা নেই। এক্ষেত্রে ছোট ইনডেক্সের নোডটি আগে নিতে চাইলে `priority_queue` বা `set` ব্যবহার করা হয়।
+    
+- **Cycle Detection:** যদি সর্টিং শেষে `tps` ভেক্টরের সাইজ গ্রাফের মোট নোড সংখ্যার সমান না হয়, তবে বুঝতে হবে গ্রাফে **Cycle** আছে।
+    
+- **DAG Only:** এই অ্যালগরিদমটি শুধুমাত্র Directed Acyclic Graph-এর জন্যই কাজ করে।
+    
+
+---
+
+### 💻 Implementation Snippet (Optimized for Multiple Indegree 0)
+
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+#define N 200005
+
+vector<int> adj[N];
+vector<int> indegree(N);
+vector<int> tps;
+
+void code() {
+    int n, m; cin >> n >> m;
+    
+    // Reset for multiple test cases
+    tps.clear();
+    for(int i = 0; i <= n; i++) {
+        adj[i].clear();
+        indegree[i] = 0;
+    }
+
+    for(int i = 0; i < m; i++) {
+        int u, v; cin >> u >> v;
+        adj[u].push_back(v);
+        indegree[v]++;
+    }
+
+    // Smallest node first logic using Priority Queue
+    priority_queue<int, vector<int>, greater<int>> pq;
+    for(int i = 1; i <= n; i++) {
+        if(indegree[i] == 0) pq.push(i);
+    }
+
+    while(!pq.empty()) {
+        int u = pq.top();
+        pq.pop();
+        tps.push_back(u);
+
+        for(int v : adj[u]) {
+            indegree[v]--; // Dependency কমানো
+            if(indegree[v] == 0) {
+                pq.push(v);
+            }
+        }
+    }
+
+    // Check if valid topological sort exists
+    if(tps.size() < n) {
+        cout << "Cycle detected! Topological sort not possible." << endl;
+    } else {
+        for(int x : tps) cout << x << " ";
+        cout << endl;
+    }
+}
+```
+
+
+---
+
+### 📝 Strategic Observations for Competitive Programming:
+
+- **Efficiency:** `vector<int> indegree` ব্যবহার করা `set.count()` ব্যবহারের চেয়ে অনেক বেশি ফাস্ট ($O(1)$ বনাম $O(\log N)$)।
+    
+- **Multiple Sources:** তোমার অবজারভেশন অনুযায়ী গ্রাফে যদি একাধিক **Source** (ইনডিগ্রি $0$) থাকে, তবে এই অ্যালগরিদম সেগুলো অটোমেটিক হ্যান্ডেল করে।
+    
+
+## Related Topics:
+- [[Topological Sort (Using DFS)]]
+- 
+---
+
+_Created on: 2026-05-05_
+
+_Tags: #Graph #TopologicalSort #KahnAlgorithm #MEC_Computer_Club #CompetitiveProgramming #Pupil_Level_
