@@ -113,4 +113,4 @@ void KMP(string text, string pattern) {
 
 _Created on: 2026-05-11_
 
-_Tags: #String #KMP #Algorithm #LPS #CP #ObsidianNotes_
+	_Tags: #String #KMP #Algorithm #LPS #CP #ObsidianNotes_

@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 4980991
       }
+    },
+    {
+      "query": "path:STRING  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711888
+      }
     }
   ],
   "collapse-display": true,

@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "STRING/KMP Algorithm (String Matching).md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ghp_",
+                "query": "tag:#String",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -208,8 +209,8 @@
   },
   "active": "7e791566847bd752",
   "lastOpenFiles": [
-    "STRING/00_String.md",
     "STRING/KMP Algorithm (String Matching).md",
+    "STRING/00_String.md",
     "STL/Vector.md",
     "STRING",
     "STL/Set.md",
