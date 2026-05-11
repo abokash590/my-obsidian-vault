@@ -1,2 +1,3 @@
 - [[Partial Sum]]
+- [[Binary Search & Efficient Searching]]
 - 
