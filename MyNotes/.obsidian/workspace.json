@@ -11,10 +11,14 @@
             "id": "7cd277b905d46e4c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "STL/Vector.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vector"
             }
           }
         ]
@@ -189,6 +193,7 @@
   },
   "active": "7cd277b905d46e4c",
   "lastOpenFiles": [
+    "STL/Set.md",
     "BASIC ALGO/Binary Search & Efficient Searching.md",
     "BASIC ALGO/00_Basic_Algo.md",
     "GRAPH THEORY/Topological Sort (DFS Method).md",
@@ -212,7 +217,6 @@
     "Tree Diameter (DFS/BFS Approach).md",
     "Tree Diameter (DFS",
     "STL/Vector.md",
-    "STL/Set.md",
     "STL/Map.md",
     "NUMBER THEORY/Prime Number Estimation (CP-Library).md",
     "NUMBER THEORY/00_Number Theory.md",
