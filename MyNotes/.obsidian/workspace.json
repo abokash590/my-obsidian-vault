@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#String",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -207,7 +206,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e791566847bd752",
+  "active": "3d0cb96ab97a7460",
   "lastOpenFiles": [
     "STRING/KMP Algorithm (String Matching).md",
     "STRING/00_String.md",
