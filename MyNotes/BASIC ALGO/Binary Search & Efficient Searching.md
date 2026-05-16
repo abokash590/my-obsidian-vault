@@ -79,7 +79,7 @@ C++
 // Last Element index logic
 int left = 0, right = n;
 while(left < right){
-    int mid = left + (right - left) / 2;
+    int mid=((left+right)>>1);
     if(vec[mid] <= x) left = mid + 1;
     else right = mid;
 }
@@ -104,7 +104,7 @@ bool isOk(int mid,int x){
 void solve(){
     int left=0,right=1e9; // Search space
     while(left<right){
-        int mid=left+(right-left)/2;
+        int mid=((left+right)>>1);
         if(isOk(mid,x))left=mid+1;
         else right=mid;
     }
