@@ -95,18 +95,18 @@ int last_idx = left - 1;
 C++
 
 ```cpp
-bool isOk(int mid, int x){
+bool isOk(int mid,int x){
     // Logic based on problem requirement
     if(condition) return true;
     return false;
 }
 
 void solve(){
-    int left = 0, right = 1e9; // Search space
-    while(left < right){
-        int mid = left + (right - left) / 2;
-        if(isOk(mid, x)) left = mid + 1;
-        else right = mid;
+    int left=0,right=1e9; // Search space
+    while(left<right){
+        int mid=left+(right-left)/2;
+        if(isOk(mid,x))left=mid+1;
+        else right=mid;
     }
 }
 ```

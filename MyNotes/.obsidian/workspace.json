@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TECHNIQUES/Grid Traversal (dx, dy).md",
+                "file": "BASIC ALGO/Binary Search & Efficient Searching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Grid Traversal (dx, dy)"
+              "title": "Binary Search & Efficient Searching"
             }
           }
         ],
@@ -208,6 +208,7 @@
   },
   "active": "7e791566847bd752",
   "lastOpenFiles": [
+    "TECHNIQUES/Grid Traversal (dx, dy).md",
     "GRAPH THEORY/XOR Path Query in Trees.md",
     "GRAPH THEORY/Bi-coloring (Bipartite Graph).md",
     "GRAPH THEORY/Cycle Detection (Undirected Graph).md",
@@ -234,7 +235,6 @@
     "GRAPH THEORY/Subtree Size in a Tree.md",
     "GRAPH THEORY/Weighted Graph (Basics & Traversal.md",
     "NUMBER THEORY/GCD & LCM.md",
-    "STL/Vector of Pairs.md",
     "Tree Diameter (DFS",
     "abar",
     "NUMBER THEORY",
