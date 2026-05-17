@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BASIC ALGO/Binary Search & Efficient Searching.md",
+                "file": "GRAPH THEORY/Number of Connected Graph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binary Search & Efficient Searching"
+              "title": "Number of Connected Graph"
             }
           }
         ],
@@ -209,12 +209,16 @@
   "active": "7e791566847bd752",
   "lastOpenFiles": [
     "TECHNIQUES/Grid Traversal (dx, dy).md",
-    "GRAPH THEORY/XOR Path Query in Trees.md",
     "GRAPH THEORY/Bi-coloring (Bipartite Graph).md",
     "GRAPH THEORY/Cycle Detection (Undirected Graph).md",
     "GRAPH THEORY/Topological Sort (Kahn's Algorithm).md",
     "GRAPH THEORY/Topological Sort (Using DFS).md",
     "GRAPH THEORY/Topological Sort (DFS Method).md",
+    "GRAPH THEORY/Tree Diameter (DFS Approach).md",
+    "GRAPH THEORY/All-Nodes Maximum Distance.md",
+    "GRAPH THEORY/Weighted Graph (Basics & Traversal.md",
+    "BASIC ALGO/Binary Search & Efficient Searching.md",
+    "GRAPH THEORY/XOR Path Query in Trees.md",
     "STL/2D vector.md",
     "BITWISE OPERATION/Bitset.md",
     "STRING/KMP Algorithm (String Matching).md",
@@ -222,7 +226,6 @@
     "STL/Vector.md",
     "STRING",
     "STL/Set.md",
-    "BASIC ALGO/Binary Search & Efficient Searching.md",
     "BASIC ALGO/00_Basic_Algo.md",
     "GRAPH THEORY/DFS on Trees vs Graphs.md",
     "GRAPH THEORY/Level of Tree (DFS).md",
@@ -230,10 +233,7 @@
     "GRAPH THEORY/Depth-First Search (DFS).md",
     "STL/Queue.md",
     "STL/Priority Queue.md",
-    "GRAPH THEORY/All-Nodes Maximum Distance.md",
-    "GRAPH THEORY/Tree Diameter (DFS Approach).md",
     "GRAPH THEORY/Subtree Size in a Tree.md",
-    "GRAPH THEORY/Weighted Graph (Basics & Traversal.md",
     "NUMBER THEORY/GCD & LCM.md",
     "Tree Diameter (DFS",
     "abar",
