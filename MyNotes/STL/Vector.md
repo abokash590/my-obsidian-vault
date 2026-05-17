@@ -47,24 +47,25 @@
 
 ### ☑ 6. Iterators
 
-|**Syntax**|**Description**|**Time Complexity**|
-|---|---|---|
-|`v.begin();`|Iterator to the first element|$O(1)$|
-|`v.end();`|Iterator to the element past the last|$O(1)$|
-|`v.rbegin();`|Reverse iterator to the last element|$O(1)$|
-|`v.rend();`|Reverse iterator to before the first|$O(1)$|
+| **Syntax**    | **Description**                       | **Time Complexity** |
+| ------------- | ------------------------------------- | ------------------- |
+| `v.begin();`  | Iterator to the first element         | $O(1)$              |
+| `v.end();`    | Iterator to the element past the last | $O(1)$              |
+| `v.rbegin();` | Reverse iterator to the last element  | $O(1)$              |
+| `v.rend();`   | Reverse iterator to before the first  | $O(1)$              |
 ### ☑ 7. Modifiers & Utilities
 
 এগুলো মূলত ভেক্টরের ডেটা পরিবর্তন বা ম্যানেজমেন্টের জন্য ব্যবহৃত হয়।
 
-| **Syntax**              | **Description**                                        | **Time Complexity** |
-| ----------------------- | ------------------------------------------------------ | ------------------- |
-| `v.assign(n, val);`     | Replaces content with $n$ copies of `val`              | $O(n)$              |
-| `v.assign(it1, it2);`   | Replaces content with elements from range `[it1, it2)` | $O(n)$              |
-| `v.swap(v2);`           | Swaps the contents of two vectors                      | $O(1)$              |
-| `swap(v1, v2);`         | Non-member swap function                               | $O(1)$              |
-| `v.emplace_back(args);` | Constructs element in-place at the end                 | $O(1)$ (Amortized)  |
-| `v.emplace(it, args);`  | Constructs element in-place at position `it`           | $O(n)$              |
+| **Syntax**                               | **Description**                                        | **Time Complexity** |
+| ---------------------------------------- | ------------------------------------------------------ | ------------------- |
+| `v.assign(n, val);`                      | Replaces content with $n$ copies of `val`              | $O(n)$              |
+| `v.assign(it1, it2);`                    | Replaces content with elements from range `[it1, it2)` | $O(n)$              |
+| `v.swap(v2);`                            | Swaps the contents of two vectors                      | $O(1)$              |
+| `swap(v1, v2);`                          | Non-member swap function                               | $O(1)$              |
+| `v.emplace_back(args);`                  | Constructs element in-place at the end                 | $O(1)$ (Amortized)  |
+| `v.emplace(it, args);`                   | Constructs element in-place at position `it`           | $O(n)$              |
+| `a.insert(a.end(), b.begin(), b.end());` | Insert a vector end of another vector                  | $O(n)$              |
 ### ☑ 8. Algorithms / Operations
 
 এগুলো `algorithm` হেডার ফাইল থেকে আসে যা ভেক্টরের উপর বিভিন্ন অপারেশন চালাতে সাহায্য করে।
