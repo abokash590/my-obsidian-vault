@@ -1,3 +1,4 @@
 - [[Interactive Problems]]
 - [[Grid Traversal (dx, dy)]]
+- [[Non-degenerate Triangle Condition]]
 - 

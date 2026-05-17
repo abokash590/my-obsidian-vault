@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STL/Vector.md",
-                "mode": "source",
+                "file": "TECHNIQUES/Non-degenerate Triangle Condition.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vector"
+              "title": "Non-degenerate Triangle Condition"
             }
           }
         ],
@@ -208,6 +208,10 @@
   },
   "active": "7e791566847bd752",
   "lastOpenFiles": [
+    "TECHNIQUES/00_Techniques.md",
+    "TECHNIQUES/Non-degenerate Triangle Condition.md",
+    "TECHNIQUES/Interactive Problems.md",
+    "STL/Vector.md",
     "GRAPH THEORY/Number of Connected Graph.md",
     "TECHNIQUES/Grid Traversal (dx, dy).md",
     "GRAPH THEORY/Bi-coloring (Bipartite Graph).md",
@@ -224,7 +228,6 @@
     "BITWISE OPERATION/Bitset.md",
     "STRING/KMP Algorithm (String Matching).md",
     "STRING/00_String.md",
-    "STL/Vector.md",
     "STRING",
     "STL/Set.md",
     "BASIC ALGO/00_Basic_Algo.md",
@@ -232,9 +235,6 @@
     "GRAPH THEORY/Level of Tree (DFS).md",
     "GRAPH THEORY/Breadth-First Search (BFS).md",
     "GRAPH THEORY/Depth-First Search (DFS).md",
-    "STL/Queue.md",
-    "STL/Priority Queue.md",
-    "GRAPH THEORY/Subtree Size in a Tree.md",
     "Tree Diameter (DFS",
     "abar",
     "NUMBER THEORY",
