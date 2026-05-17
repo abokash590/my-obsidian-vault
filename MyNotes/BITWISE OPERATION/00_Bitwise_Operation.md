@@ -1,2 +1,3 @@
 - [[Bitset]]
+- [[Bit Manipulation & Bitwise Wizardry]]
 - 
