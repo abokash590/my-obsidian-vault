@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DP/Dynamic Programming (DP) - Beginner to Pro Guide.md",
+                "file": "BITWISE OPERATION/Bitset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dynamic Programming (DP) - Beginner to Pro Guide"
+              "title": "Bitset"
             }
           }
         ],
@@ -233,8 +233,8 @@
   },
   "active": "5e059e6baeb456b9",
   "lastOpenFiles": [
-    "DP/00_Dynamic_Programming.md",
     "DP/Dynamic Programming (DP) - Beginner to Pro Guide.md",
+    "DP/00_Dynamic_Programming.md",
     "GRAPH THEORY/00_Graph_Theory.md",
     "BITWISE OPERATION/Bit Manipulation & Bitwise Wizardry.md",
     "DP",
