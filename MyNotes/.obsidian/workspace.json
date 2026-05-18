@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BITWISE OPERATION/Bitset.md",
+                "file": "STL/Vector of  Tuple.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bitset"
+              "title": "Vector of  Tuple"
             }
           }
         ],
@@ -233,6 +233,7 @@
   },
   "active": "5e059e6baeb456b9",
   "lastOpenFiles": [
+    "BITWISE OPERATION/Bitset.md",
     "DP/Dynamic Programming (DP) - Beginner to Pro Guide.md",
     "DP/00_Dynamic_Programming.md",
     "GRAPH THEORY/00_Graph_Theory.md",
@@ -257,7 +258,6 @@
     "BASIC ALGO/Binary Search & Efficient Searching.md",
     "GRAPH THEORY/XOR Path Query in Trees.md",
     "STL/2D vector.md",
-    "BITWISE OPERATION/Bitset.md",
     "STRING/KMP Algorithm (String Matching).md",
     "STRING/00_String.md",
     "STRING",

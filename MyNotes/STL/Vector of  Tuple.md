@@ -1,10 +1,10 @@
 ### 1. Declaration & Initialization
-| Syntax | Description | Time Complexity |
-| :--- | :--- | :--- |
-| `vector<tuple<int, int, int>> vt;` | Declares an empty vector of tuples | $O(1)$ |
-| `vector<tuple<int, int, int>> vt(n, {0, 0, 0});` | Initializes $n$ tuples with value $\{0, 0, 0\}$ | $O(n)$ |
-| `vt.push_back(make_tuple(1, 2, 3));` | Adds a tuple using `make_tuple` | $O(1)$ |
-| `vt.push_back({1, 2, 3});` | Adds a tuple using initializer list | $O(1)$ |
+| Syntax                                           | Description                                     | Time Complexity |
+| :----------------------------------------------- | :---------------------------------------------- | :-------------- |
+| `vector<tuple<int, int, int>> vt;`               | Declares an empty vector of tuples              | $O(1)$          |
+| `vector<tuple<int, int, int>> vt(n, {0, 0, 0});` | Initializes $n$ tuples with value $\{0, 0, 0\}$ | $O(n)$          |
+| `vt.push_back(make_tuple(1, 2, 3));`             | Adds a tuple using `make_tuple`                 | $O(1)$          |
+| `vt.push_back({1, 2, 3});`                       | Adds a tuple using initializer list             | $O(1)$          |
 ### 2. Access & Traversal
 | Syntax | Description | Time Complexity |
 | :--- | :--- | :--- |
