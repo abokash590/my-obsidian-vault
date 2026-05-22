@@ -1,3 +1,4 @@
 - [[Bitset]]
 - [[Bit Manipulation & Bitwise Wizardry]]
+- [[Bitwise Subtraction & Subset Magic (1400 Rating Analysis)]]
 - 
