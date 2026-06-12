@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GRAPH THEORY/Breadth-First Search (BFS).md",
-                "mode": "source",
+                "file": "Study Tracker.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Breadth-First Search (BFS)"
+              "title": "Study Tracker"
             }
           }
         ],
@@ -80,7 +80,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -233,10 +233,12 @@
   },
   "active": "5e059e6baeb456b9",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Study Tracker.md",
+    "GRAPH THEORY/Breadth-First Search (BFS).md",
     "BITWISE OPERATION/Bitwise Subtraction & Subset Magic (1400 Rating Analysis).md",
     "BITWISE OPERATION/Bit Manipulation & Bitwise Wizardry.md",
     "STL/Vector.md",
-    "Untitled.md",
     "2026-05-22.md",
     "BITWISE OPERATION/00_Bitwise_Operation.md",
     "BITWISE OPERATION/Bitset.md",
@@ -258,8 +260,6 @@
     "GRAPH THEORY/Topological Sort (DFS Method).md",
     "GRAPH THEORY/Tree Diameter (DFS Approach).md",
     "GRAPH THEORY/All-Nodes Maximum Distance.md",
-    "GRAPH THEORY/Weighted Graph (Basics & Traversal.md",
-    "BASIC ALGO/Binary Search & Efficient Searching.md",
     "STRING",
     "Tree Diameter (DFS",
     "abar",
