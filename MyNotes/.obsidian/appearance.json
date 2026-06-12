@@ -1,4 +1,7 @@
 {
   "theme": "moonstone",
-  "cssTheme": "Iridium"
+  "cssTheme": "Iridium",
+  "enabledCssSnippets": [
+    "bangla-font"
+  ]
 }

@@ -1,0 +1,12 @@
+/* Define Hind Siliguri specifically for Bangla Unicode characters */
+@font-face {
+    font-family: 'BanglaOnly';
+    src: local('Hind Siliguri');
+    /* This tells Obsidian to only use this font for the Bangla script range */
+    unicode-range: U+0980-09FF; 
+}
+
+/* Apply it globally as the primary font choice */
+body, input, button, select, textarea, .cm-line {
+    font-family: 'BanglaOnly', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
