@@ -8,7 +8,7 @@
 8. Weddle 
 9. **==Trapezoidal==
 10. ==**RK Method==
-11. Taylor Series
+11. ==**Taylor Series==
 12. Euler Method
 13. Modified Euler Method
 14. Picard's Method
