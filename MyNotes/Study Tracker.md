@@ -5,9 +5,9 @@
 5. **==Secant Method==**
 6. **==Simpson 1/3 Rule==**
 7. **==Simpson 3/8 Rule==
-8. **Weddle 
+8. Weddle 
 9. **==Trapezoidal==
-10. RK Method
+10. ==**RK Method==
 11. Taylor Series
 12. Euler Method
 13. Modified Euler Method
