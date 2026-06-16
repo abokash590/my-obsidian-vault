@@ -1,11 +1,11 @@
 1. ==**Bisection Method**==
 2. ==**Newton Raphson Method**== 
-3. Fixed Point Iteration
+3. ==Fixed Point Iteration==
 4. Regular Falsi
 5. Secant Method
 6. Simpson 1/3 Rule
 7. Simpson 3/8 Rule
-8. Weddle
+8. Weddle 
 9. Trapezoidal
 10. RK Method
 11. Taylor Series
@@ -31,7 +31,7 @@
 | :-- | :--------------------------------- | :----------------------------------------- | :------------------------------------- | :------------------------------- |
 | 1   | ==Bisection Method==               | ==Interval Halving Method==                | ==Binary Search Method==               | ==Dichotomy Method==             |
 | 2   | ==Newton Raphson Method==          | ==Newton's Method==                        | ==Tangent Method==                     | ==NR Method==                    |
-| 3   | Fixed Point Iteration              | Successive Approximation Method            | Iteration Method                       | Fixed-Point Multi-Step Method    |
+| 3   | ==Fixed Point Iteration==              | ==Successive Approximation Method==            | ==Iteration Method==                       | ==Fixed-Point Multi-Step Method==    |
 | 4   | Regular Falsi                      | Regula Falsi Method                        | Method of False Position               | Linear Interpolation Method      |
 | 5   | Secant Method                      | Chord Method                               | Quasi-Newton Method (1D)               |                                  |
 | 6   | Simpson 1/3 Rule                   | Simpson's Rule                             | Simpson's Quadrature Formula (1/3)     | Parabolic Rule                   |
