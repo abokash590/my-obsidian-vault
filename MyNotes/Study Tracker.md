@@ -1,4 +1,4 @@
-1. Bisection Method
+1. ==Bisection Method==
 2. Newton Raphson Method
 3. Fixed Point Iteration
 4. Regular Falsi
