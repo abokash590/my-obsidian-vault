@@ -15,7 +15,7 @@
 15. Milne's Prediction and Corrector Method
 16. Crammer Rule
 17. ==**Gauss Elimination Method==
-18. Gauss Jacobi
+18. **==Gauss Jacobi==**
 19. ==**Gauss Seidal**==
 20. Cholesky's Method
 21. Newton Forward
