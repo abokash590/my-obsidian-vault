@@ -19,8 +19,8 @@
 19. ==**Gauss Seidal**==
 20. ==**Cholesky's Method
 21. ==**LU Decomposition
-22. Newton Forward
-23. Newton Backward
+22. **==Newton Forward==**
+23. **==Newton Backward==**
 24. **==Gauss Jordan==**
 25. Laplace
 26. Error number system
