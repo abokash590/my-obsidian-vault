@@ -20,7 +20,7 @@
 20. Cholesky's Method
 21. Newton Forward
 22. Newton Backward
-23. Gauss Jordan
+23. **==Gauss Jordan==**
 24. Laplace
 
 
