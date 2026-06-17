@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Tracker.md",
+                "file": "Questions Set.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Study Tracker"
+              "title": "Questions Set"
             }
           }
         ],
@@ -233,9 +233,10 @@
   },
   "active": "5e059e6baeb456b9",
   "lastOpenFiles": [
+    "numerical_methods_CT1_CT2.md",
     "Questions Set.md",
-    "Study Tracker.md",
     "Untitled 1.md",
+    "Study Tracker.md",
     "Untitled.base",
     "Untitled.md",
     "Pasted image 20260616123056.png",
@@ -261,7 +262,6 @@
     "GRAPH THEORY/Cycle Detection (Undirected Graph).md",
     "GRAPH THEORY/Topological Sort (Kahn's Algorithm).md",
     "GRAPH THEORY/Topological Sort (Using DFS).md",
-    "GRAPH THEORY/Topological Sort (DFS Method).md",
     "STRING",
     "Tree Diameter (DFS",
     "abar",
