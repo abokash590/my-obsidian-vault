@@ -12,7 +12,7 @@
 12. ==**Euler Method**==
 13. ==**Modified Euler Method==
 14. ==**Picard's Method**==
-15. Milne's Prediction and Corrector Method
+15. **==Milne's Prediction and Corrector Method==**
 16. **==Crammer Rule==**
 17. ==**Gauss Elimination Method==
 18. **==Gauss Jacobi==**
