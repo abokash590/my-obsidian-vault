@@ -68,8 +68,8 @@
 8. **Trapezoidal
 9. **RK Method
 10. **Taylor Series
-11. ==**Euler Method**==
-12. ==**Modified Euler Method==
+11. **Euler Method**
+12. **Modified Euler Method
 13. ==**Picard's Method**==
 14. **==Milne's Prediction and Corrector Method==**
 15. **==Newton Forward==**
