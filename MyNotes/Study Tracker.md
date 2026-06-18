@@ -58,21 +58,20 @@
 | 23  | Gauss Jordan Method                | Gauss-Jordan Elimination                   | Complete Elimination Method            | Diagonalization Method            |     |
 | 24  | Laplace Equation Method            | Laplace's Boundary Value Problem Solution  | Five-Point Difference Scheme (for PDE) | Liebmann's Iterative Process      |     |
 
-1. ==**Bisection Method**===
-2. ==**Newton Raphson Method**== 
-3. **==Fixed Point Iteration==**
-4. **==Regular Falsi==**
-5. **==Secant Method==**
-6. **==Simpson 1/3 Rule==**
-7. **==Simpson 3/8 Rule==
-8. **==Trapezoidal==
+1. **Bisection Method
+2. **Newton Raphson Method
+3. **Fixed Point Iteration**
+4. **Regular Falsi**
+5. **Secant Method**
+6. **Simpson 1/3 Rule**
+7. **Simpson 3/8 Rule
+8. **Trapezoidal
 9. ==**RK Method==
 10. ==**Taylor Series==
 11. ==**Euler Method**==
 12. ==**Modified Euler Method==
 13. ==**Picard's Method**==
 14. **==Milne's Prediction and Corrector Method==**
-15. **==Crammer Rule==**
-16. **==Newton Forward==**
-17. **==Newton Backward==**
-18. **==Lagrange Formula
+15. **==Newton Forward==**
+16. **==Newton Backward==**
+17. **==Lagrange Formula
