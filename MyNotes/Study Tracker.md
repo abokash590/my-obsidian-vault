@@ -70,8 +70,8 @@
 10. **Taylor Series
 11. **Euler Method**
 12. **Modified Euler Method
-13. ==**Picard's Method**==
-14. **==Milne's Prediction and Corrector Method==**
+13. **Picard's Method**
+14. **Milne's Prediction and Corrector Method
 15. **==Newton Forward==**
 16. **==Newton Backward==**
-17. **==Lagrange Formula
+17. **Lagrange Formula
