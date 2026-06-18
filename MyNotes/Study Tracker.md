@@ -66,8 +66,8 @@
 6. **Simpson 1/3 Rule**
 7. **Simpson 3/8 Rule
 8. **Trapezoidal
-9. ==**RK Method==
-10. ==**Taylor Series==
+9. **RK Method
+10. **Taylor Series
 11. ==**Euler Method**==
 12. ==**Modified Euler Method==
 13. ==**Picard's Method**==
