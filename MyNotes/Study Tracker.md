@@ -61,8 +61,8 @@
 1. **Bisection Method
 2. **Newton Raphson Method
 3. **Fixed Point Iteration**
-4. **Regular Falsi**
-5. **Secant Method**
+4. **Regular Falsi
+5. **Secant Method
 6. **Simpson 1/3 Rule**
 7. **Simpson 3/8 Rule
 8. **Trapezoidal
@@ -72,6 +72,6 @@
 12. **Modified Euler Method
 13. **Picard's Method**
 14. **Milne's Prediction and Corrector Method
-15. **==Newton Forward==**
-16. **==Newton Backward==**
+15. **Newton Forward
+16. **Newton Backward
 17. **Lagrange Formula
