@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STRING/KMP Algorithm (String Matching).md",
+                "file": "STL/Vector.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KMP Algorithm (String Matching)"
+              "title": "Vector"
             }
           },
           {
