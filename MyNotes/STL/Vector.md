@@ -1,13 +1,13 @@
 ### ☑ 1. Declaration & Initialization
 
-|**Syntax**|**Description**|**Time Complexity**|
-|---|---|---|
-|`vector<int> v;`|Empty vector|$O(1)$|
-|`vector<int> v(n);`|Size $n$, default initialized (0)|$O(n)$|
-|`vector<int> v(n, val);`|Size $n$, each element = `val`|$O(n)$|
-|`vector<int> v{1, 2, 3};`|Initializer list|$O(n)$|
-|`vector<int> v2(v1);`|Copy constructor|$O(n)$|
-|`v = v2;`|Assignment (copying all elements)|$O(n)$|
+| **Syntax**                | **Description**                   | **Time Complexity** |
+| ------------------------- | --------------------------------- | ------------------- |
+| `vector<int> v;`          | Empty vector                      | $O(1)$              |
+| `vector<int> v(n);`       | Size $n$, default initialized (0) | $O(n)$              |
+| `vector<int> v(n, val);`  | Size $n$, each element = `val`    | $O(n)$              |
+| `vector<int> v{1, 2, 3};` | Initializer list                  | $O(n)$              |
+| `vector<int> v2(v1);`     | Copy constructor                  | $O(n)$              |
+| `v = v2;`                 | Assignment (copying all elements) | $O(n)$              |
 ### ☑ 2. Insertion
 
 | **Syntax**                            | **Description**                           | **Time Complexity** |

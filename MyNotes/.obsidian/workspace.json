@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STL/Vector.md",
+                "file": "GRAPH THEORY/Subtree Size in a Tree.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vector"
+              "title": "Subtree Size in a Tree"
             }
           },
           {
@@ -39,14 +39,10 @@
             "id": "4acf8ffb94fb71f9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STL/Vector.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vector"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -63,8 +59,7 @@
               "title": "KMP Algorithm (String Matching)"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -235,9 +230,22 @@
       "whisper:Open recording controls": false
     }
   },
-  "active": "4acf8ffb94fb71f9",
+  "active": "7cd277b905d46e4c",
   "lastOpenFiles": [
+    "GRAPH THEORY/Level of Tree (DFS).md",
+    "GRAPH THEORY/DFS on Trees vs Graphs.md",
+    "GRAPH THEORY/Shortest Path (BFS).md",
+    "GRAPH THEORY/Is_Connected.md",
+    "STL/Vector.md",
     "STRING/KMP Algorithm (String Matching).md",
+    "BASIC ALGO/Binary Search & Efficient Searching.md",
+    "GRAPH THEORY/00_Graph_Theory.md",
+    "GRAPH THEORY/Graph & Tree Terminology.md",
+    "GRAPH THEORY/Breadth-First Search (BFS).md",
+    "GRAPH THEORY/All-Nodes Maximum Distance.md",
+    "GRAPH THEORY/Weighted Graph (Basics & Traversal.md",
+    "GRAPH THEORY/Tree Diameter (DFS Approach).md",
+    "STL/Vector of Pairs.md",
     "Study Tracker.md",
     "Questions Set.md",
     "numerical_methods_CT1_CT2.md",
@@ -245,27 +253,14 @@
     "Untitled.base",
     "Untitled.md",
     "Pasted image 20260616123056.png",
-    "GRAPH THEORY/Breadth-First Search (BFS).md",
     "BITWISE OPERATION/Bitwise Subtraction & Subset Magic (1400 Rating Analysis).md",
     "BITWISE OPERATION/Bit Manipulation & Bitwise Wizardry.md",
-    "STL/Vector.md",
     "2026-05-22.md",
     "BITWISE OPERATION/00_Bitwise_Operation.md",
     "BITWISE OPERATION/Bitset.md",
     "STL/Vector of  Tuple.md",
     "DP/Dynamic Programming (DP) - Beginner to Pro Guide.md",
-    "DP/00_Dynamic_Programming.md",
-    "GRAPH THEORY/00_Graph_Theory.md",
     "DP",
-    "TECHNIQUES/Non-degenerate Triangle Condition.md",
-    "TECHNIQUES/00_Techniques.md",
-    "TECHNIQUES/Interactive Problems.md",
-    "GRAPH THEORY/Number of Connected Graph.md",
-    "TECHNIQUES/Grid Traversal (dx, dy).md",
-    "GRAPH THEORY/Bi-coloring (Bipartite Graph).md",
-    "GRAPH THEORY/Cycle Detection (Undirected Graph).md",
-    "GRAPH THEORY/Topological Sort (Kahn's Algorithm).md",
-    "GRAPH THEORY/Topological Sort (Using DFS).md",
     "STRING",
     "Tree Diameter (DFS",
     "abar",
