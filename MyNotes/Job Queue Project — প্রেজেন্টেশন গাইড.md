@@ -13,12 +13,12 @@
 ## PHASE 1 — Project চালু করা
 
 ### Terminal-এ যা লিখবে
-
+1. **Project folder-এ যাও**
 ```bash
-# Project folder-এ যাও
 cd C:\Users\ahmed\Downloads\job_queue_sim
-
-# Server চালু করো
+```
+2. **Server চালু করো**
+```bash
 python -m uvicorn api:app --reload
 ```
 
