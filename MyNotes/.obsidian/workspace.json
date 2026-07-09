@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STRING/KMP Algorithm (String Matching).md",
+                "file": "PROJECT/Simulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KMP Algorithm (String Matching)"
+              "title": "Simulation"
+            }
+          },
+          {
+            "id": "582df712ff7d408a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Job Queue Project — প্রেজেন্টেশন গাইড.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Job Queue Project — প্রেজেন্টেশন গাইড"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -70,7 +84,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -221,9 +235,18 @@
       "whisper:Open recording controls": false
     }
   },
-  "active": "5e059e6baeb456b9",
+  "active": "582df712ff7d408a",
   "lastOpenFiles": [
+    "PROJECT/Simulation.md",
+    "Job Queue Project — প্রেজেন্টেশন গাইড.md",
+    "Questions Set.md",
+    "PROJECT",
+    "Study Tracker.md",
+    "Untitled 1.md",
+    "Untitled.base",
+    "Pasted image 20260616123056.png",
     "STRING/KMP Algorithm (String Matching).md",
+    "numerical_methods_CT1_CT2.md",
     "GRAPH THEORY/Subtree Size in a Tree.md",
     "GRAPH THEORY/Level of Tree (DFS).md",
     "GRAPH THEORY/DFS on Trees vs Graphs.md",
@@ -238,19 +261,11 @@
     "GRAPH THEORY/Weighted Graph (Basics & Traversal.md",
     "GRAPH THEORY/Tree Diameter (DFS Approach).md",
     "STL/Vector of Pairs.md",
-    "Study Tracker.md",
-    "Questions Set.md",
-    "numerical_methods_CT1_CT2.md",
-    "Untitled 1.md",
-    "Untitled.base",
-    "Untitled.md",
-    "Pasted image 20260616123056.png",
     "BITWISE OPERATION/Bitwise Subtraction & Subset Magic (1400 Rating Analysis).md",
     "BITWISE OPERATION/Bit Manipulation & Bitwise Wizardry.md",
     "2026-05-22.md",
     "BITWISE OPERATION/00_Bitwise_Operation.md",
     "BITWISE OPERATION/Bitset.md",
-    "STL/Vector of  Tuple.md",
     "DP",
     "STRING",
     "Tree Diameter (DFS",
@@ -259,7 +274,6 @@
     "BITWISE OPERATION",
     "GRAPH THEORY",
     "BASIC ALGO",
-    "CPS",
     "Untitled.canvas",
     "Pasted image 20260309132606.png"
   ]
