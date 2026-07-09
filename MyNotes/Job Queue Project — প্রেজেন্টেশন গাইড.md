@@ -17,6 +17,9 @@
 ```bash
 cd C:\Users\ahmed\Downloads\job_queue_sim
 ```
+```bash
+cd T:\Project\job_queue_sim
+```
 2. **Server চালু করো**
 ```bash
 python -m uvicorn api:app --reload
