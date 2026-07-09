@@ -36,16 +36,6 @@
             }
           },
           {
-            "id": "4acf8ffb94fb71f9",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "5e059e6baeb456b9",
             "type": "leaf",
             "state": {
@@ -59,7 +49,8 @@
               "title": "KMP Algorithm (String Matching)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,14 +221,15 @@
       "whisper:Open recording controls": false
     }
   },
-  "active": "7cd277b905d46e4c",
+  "active": "5e059e6baeb456b9",
   "lastOpenFiles": [
+    "STRING/KMP Algorithm (String Matching).md",
+    "GRAPH THEORY/Subtree Size in a Tree.md",
     "GRAPH THEORY/Level of Tree (DFS).md",
     "GRAPH THEORY/DFS on Trees vs Graphs.md",
     "GRAPH THEORY/Shortest Path (BFS).md",
     "GRAPH THEORY/Is_Connected.md",
     "STL/Vector.md",
-    "STRING/KMP Algorithm (String Matching).md",
     "BASIC ALGO/Binary Search & Efficient Searching.md",
     "GRAPH THEORY/00_Graph_Theory.md",
     "GRAPH THEORY/Graph & Tree Terminology.md",
@@ -259,7 +251,6 @@
     "BITWISE OPERATION/00_Bitwise_Operation.md",
     "BITWISE OPERATION/Bitset.md",
     "STL/Vector of  Tuple.md",
-    "DP/Dynamic Programming (DP) - Beginner to Pro Guide.md",
     "DP",
     "STRING",
     "Tree Diameter (DFS",
