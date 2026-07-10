@@ -1,107 +1,40 @@
-Job Queue Simulation
-Async Job Processing Engine — Design Patterns in Action
----
-Before You Start
-1. MySQL Setup
-```sql
--- Log in to MySQL and run the schema:
-mysql -u root -p < schema.sql
-```
-2. Configure Environment Variables
-Copy `.env.example` to `.env` and fill in your real credentials:
-```bash
-cp .env.example .env
-```
-```env
-DB_HOST=localhost
-DB_PORT=3306
-DB_USER=root
-DB_PASSWORD=your_mysql_password_here
-DB_NAME=job_queue_db
-
-GMAIL_ADDRESS=your_email@gmail.com
-GMAIL_APP_PASSWORD=your_gmail_app_password_here
-```
-> `.env` is git-ignored — your credentials never get committed.
-3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-4. Run
-```bash
-python main.py
-```
----
-Project Structure
-```
-job_queue_simulation/
-├── config.py                      ← Loads DB/Gmail credentials from .env
-├── schema.sql                     ← MySQL table DDL
-├── requirements.txt
-├── .env.example                   ← Template for environment variables
-├── main.py                        ← Entry point — runs everything together
-│
-├── utils/
-│   ├── logger.py                  ← Colored terminal output
-│   └── errors.py                  ← TransientError, PermanentError
-│
-├── db/
-│   └── database.py                ← MySQL queries (insert, fetch, update)
-│
-├── models/
-│   ├── job.py                     ← BaseJob, JobStatus, JobPriority
-│   └── worker.py                  ← Worker class
-│
-├── patterns/
-│   ├── job_queue.py               ← SINGLETON PATTERN
-│   ├── job_factory.py             ← FACTORY METHOD PATTERN
-│   ├── worker_pool.py             ← OBJECT POOL PATTERN
-│   └── job_executor_proxy.py      ← PROXY PATTERN
-│
-├── jobs/
-│   └── order_processing_job.py    ← Concrete Job Implementation
-│
-├── producer_simulator.py          ← Fake order generator
-├── worker_simulator.py            ← Worker engine
-└── reconciliation_script.py       ← Crash recovery
-```
----
-Design Patterns
-Pattern	File	What it does
-Singleton	`patterns/job_queue.py`	Ensures a single JobQueue instance across the whole system
-Factory Method	`patterns/job_factory.py`	Creates the correct Job class from a job type
-Object Pool	`patterns/worker_pool.py`	Fixed worker pool with checkout/checkin
-Proxy Pattern	`patterns/job_executor_proxy.py`	Logging, retry, and status updates
----
-Simulation Scenarios
-Scenario	Payload Flag	Result
-Happy Path	(no flag)	All steps succeed → COMPLETED
-Transient Error	`"fail_payment": True`	Retry → Exponential Backoff → DEAD
-Permanent Error	`"fail_inventory": True`	Immediately DEAD → Notification
-Crash Recovery	Answer "y" in main.py prompt	Stuck in PROCESSING → Reconciliation → PENDING
----
-Terminal Color Guide
-Color	Component
-🔵 Cyan	Producer
-🟣 Magenta	Worker Pool
-⚪ White	Proxy
-🟢 Green	Job steps / Success
-🟡 Yellow	Retry
-🔴 Red	Dead / Recovery
-🔵 Blue	Notification
----
-Inspecting the `jobs` Table in MySQL
-```sql
-USE job_queue_db;
-
--- All jobs
-SELECT id, type, status, priority, retry_count, error_message,
-       created_at, started_at, completed_at
-FROM jobs ORDER BY id;
-
--- Summary by status
-SELECT status, COUNT(*) as total FROM jobs GROUP BY status;
-
--- DEAD jobs and their reasons
-SELECT id, error_message, retry_count FROM jobs WHERE status = 'DEAD';
-```
+Claude Account Manager — Extension
+Install (developer mode, unpacked)
+Unzip this folder somewhere permanent (don't delete it after installing — Chrome loads the extension live from this folder).
+Go to `chrome://extensions`.
+Turn on Developer mode (top-right toggle).
+Click Load unpacked.
+Select this `extension` folder (the one containing `manifest.json`).
+Pin the extension icon (puzzle-piece icon in the toolbar → pin "Claude Account Manager").
+First use
+Click the extension icon → click Login.
+A new tab opens at claude.ai's login page — log in normally (this step is always manual, the extension never touches your password).
+Once you're logged in, the extension detects it automatically and adds the account to the list.
+Repeat for each of your accounts.
+Click the refresh icon in the popup to sync status for all accounts (checks usage limits + recent chats).
+⚠️ Before this fully works: selectors need verifying
+claude.ai has no public API. This extension reads its interface (DOM), and
+a few CSS selectors were written as best-guesses since the live page
+structure wasn't available while writing this code. They're all centralized
+at the top of `content.js` in one `SELECTORS` object — marked
+`VERIFY LIVE` — specifically:
+`accountEmail` — where your logged-in email appears in the account/profile menu
+`usageLimitBanner` / `usageLimitResetText` — the "you've hit your limit" message and its reset time
+`sidebarChatItem` — each conversation entry in the left sidebar
+`composerTextarea` — the message input box (for Bridge Context autofill)
+`messageBubble` — individual chat messages (for building the Bridge Context summary)
+To fix: open claude.ai, right-click the relevant element → Inspect, find
+its actual `data-testid`/class, and update the matching line in
+`SELECTORS`. This is the only maintenance this extension should ever need
+unless Anthropic changes claude.ai's structure again later.
+What's fully implemented vs. what depends on the selectors above
+Feature	Status
+Add / remove / pin / unpin accounts	✅ Fully working, no selector dependency
+Switch & continue (cookie swap)	✅ Fully working, no selector dependency
+Sync timer + lock UI	✅ Fully working
+Toolbar badge count	✅ Fully working
+Usage-limit detection	⚠️ Needs `usageLimitBanner` selector verified
+Recent chat tracking	⚠️ Needs `sidebarChatItem` selector verified
+Bridge context (extract + autofill)	⚠️ Needs `messageBubble` + `composerTextarea` verified
+Login detection (email capture)	⚠️ Needs `accountEmail` selector verified
+See `BUILD_SPEC.md` for the full behavior spec of every feature.
