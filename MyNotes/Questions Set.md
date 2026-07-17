@@ -1,40 +1,108 @@
-Claude Account Manager — Extension
-Install (developer mode, unpacked)
-Unzip this folder somewhere permanent (don't delete it after installing — Chrome loads the extension live from this folder).
-Go to `chrome://extensions`.
-Turn on Developer mode (top-right toggle).
-Click Load unpacked.
-Select this `extension` folder (the one containing `manifest.json`).
-Pin the extension icon (puzzle-piece icon in the toolbar → pin "Claude Account Manager").
-First use
-Click the extension icon → click Login.
-A new tab opens at claude.ai's login page — log in normally (this step is always manual, the extension never touches your password).
-Once you're logged in, the extension detects it automatically and adds the account to the list.
-Repeat for each of your accounts.
-Click the refresh icon in the popup to sync status for all accounts (checks usage limits + recent chats).
-⚠️ Before this fully works: selectors need verifying
-claude.ai has no public API. This extension reads its interface (DOM), and
-a few CSS selectors were written as best-guesses since the live page
-structure wasn't available while writing this code. They're all centralized
-at the top of `content.js` in one `SELECTORS` object — marked
-`VERIFY LIVE` — specifically:
-`accountEmail` — where your logged-in email appears in the account/profile menu
-`usageLimitBanner` / `usageLimitResetText` — the "you've hit your limit" message and its reset time
-`sidebarChatItem` — each conversation entry in the left sidebar
-`composerTextarea` — the message input box (for Bridge Context autofill)
-`messageBubble` — individual chat messages (for building the Bridge Context summary)
-To fix: open claude.ai, right-click the relevant element → Inspect, find
-its actual `data-testid`/class, and update the matching line in
-`SELECTORS`. This is the only maintenance this extension should ever need
-unless Anthropic changes claude.ai's structure again later.
-What's fully implemented vs. what depends on the selectors above
-Feature	Status
-Add / remove / pin / unpin accounts	✅ Fully working, no selector dependency
-Switch & continue (cookie swap)	✅ Fully working, no selector dependency
-Sync timer + lock UI	✅ Fully working
-Toolbar badge count	✅ Fully working
-Usage-limit detection	⚠️ Needs `usageLimitBanner` selector verified
-Recent chat tracking	⚠️ Needs `sidebarChatItem` selector verified
-Bridge context (extract + autofill)	⚠️ Needs `messageBubble` + `composerTextarea` verified
-Login detection (email capture)	⚠️ Needs `accountEmail` selector verified
-See `BUILD_SPEC.md` for the full behavior spec of every feature.
+# Codeforces Round 1108 (Div. 2) || Problem C. 0mar and Alternating Sums
+## বিস্তারিত গাণিতিক ও লজিক্যাল বিশ্লেষণ
+
+এই ডকুমেন্টটিতে Codeforces Round 1108 (Div. 2) এর Problem C (0mar and Alternating Sums)-এর একটি পূর্ণাঙ্গ ও গভীর গাণিতিক বিশ্লেষণ দেওয়া হয়েছে। সমস্যাটি মূলত কম্বিনেটোরিক্স (Combinatorics), নম্বর থিওরি এবং অ্যারে ম্যানিপুলেশনের একটি চমৎকার মিশ্রণ।
+
+---
+
+## ১. সমস্যা পরিচিতি ও গাণিতিক সংজ্ঞা
+
+একটি অ-হ্রাসমান বা সর্টেড (non-decreasing) অ্যারে $A$ দেওয়া আছে যার দৈর্ঘ্য $n$। অ্যারের প্রতিটি উপাদান হয় $-1$ অথবা কোনো ধনাত্মক পূর্ণসংখ্যা (positive integer)। যেহেতু অ্যারেটি সর্টেড, তাই স্বাভাবিকভাবেই সব $-1$ অ্যারের একদম শুরুতে থাকবে এবং এরপরে পজিটিভ সংখ্যাগুলো ছোট থেকে বড় ক্রমে অবস্থান করবে।
+
+আমাদের এমন সাব-সিকোয়েন্সের (subsequence) সংখ্যা বের করতে হবে যাদের **অল্টারনেটিং সাম (alternating sum)** $0$ হয়।
+
+### অল্টারনেটিং সাম কী?
+যদি একটি সাব-সিকোয়েন্স $B = [B_1, B_2, B_3, \dots, B_k]$ হয়, তবে এর অল্টারনেটিং সাম হবে:
+$$S = B_1 - B_2 + B_3 - B_4 + \dots + (-1)^{k-1}B_k$$
+
+আমাদের লক্ষ্য হলো $S = 0$ কতগুলো সাব-সিকোয়েন্সের জন্য সত্য, তা বের করা। শূন্য দৈর্ঘ্যের সাব-সিকোয়েন্সের অল্টারনেটিং সামও $0$ ধরা হয়।
+
+---
+
+## ২. গাণিতিক বিশ্লেষণ ও লজিক উন্নয়ন
+
+সমস্যাটি সহজে সমাধানের জন্য এটিকে প্রধান দুটি ভাগে ভাগ করে বিশ্লেষণ করা যাক:
+
+### ধাপ ১: শুধুমাত্র ধনাত্মক (Positive) সংখ্যার ক্ষেত্রে বিশ্লেষণ
+ধরে নেওয়া যাক, আমাদের অ্যারেতে কোনো $-1$ নেই, শুধুমাত্র পজিটিভ সংখ্যা আছে। অ্যারেটি যেহেতু সর্টেড, তাই পজিটিভ সংখ্যাগুলোর মান $A_1 \le A_2 \le A_3 \dots$ এই ক্রমে থাকবে।
+
+এই অবস্থায় অল্টারনেটিং সাম $0$ বানানোর একমাত্র উপায় হলো— প্রতিটি অনন্য বা ইউনিক (unique) পজিটিভ সংখ্যাকে **জোড় সংখ্যক বার (even number of times)** সিলেক্ট করা।
+
+#### গাণিতিক প্রমাণ/স্বজ্ঞাত ধারণা (Intuition):
+যদি আমরা ভিন্ন ভিন্ন পজিটিভ সংখ্যা নিয়ে একটি অল্টারনেটিং সাব-সিকোয়েন্স তৈরি করার চেষ্টা করি, যেমন $A_1 - A_2 + A_3 = 0$, তবে সমীকরণটি দাঁড়ায়:
+$$A_2 - A_1 = A_3$$
+যেহেতু অ্যারেটি সর্টেড এবং উপাদানগুলো পজিটিভ, তাই $A_3 \ge A_2$। কিন্তু পজিটিভ সংখ্যা $A_1 > 0$ হওয়ার কারণে $A_2 - A_1$ এর মান অবশ্যই $A_2$ থেকে ছোট হবে। ফলে $A_2 - A_1 < A_3$ হয়ে যায়, যা সমীকরণটিকে অসম্ভব করে তোলে।
+
+অতএব, ভিন্ন উপাদান নিয়ে পজিটিভ সংখ্যার ক্ষেত্রে অল্টারনেটিং সাম কখনো $0$ করা সম্ভব নয়। সাম $0$ করতে হলে একই উপাদানকে জোড় সংখ্যক বার নিয়ে একে অপরকে ক্যান্সেল করতে হবে (যেমন: $x - x = 0$)।
+
+#### কম্বিনেটোরিক্সের প্রয়োগ:
+ধরা যাক, পজিটিভ সংখ্যার অংশে মোট ইউনিক সংখ্যার সংখ্যা $k$ এবং প্রতিটি ইউনিক সংখ্যার ফ্রিকোয়েন্সি বা উপস্থিতির সংখ্যা $f_i$ (যেখানে $1 \le i \le k$)।
+কোনো একটি নির্দিষ্ট উপাদানের $f_i$ সংখ্যক কপি থেকে জোড় সংখ্যক বার (০ বার, ২ বার, ৪ বার...) উপাদান বেছে নেওয়ার উপায় হলো বাইনোমিয়াল থিওরেম অনুযায়ী:
+$$ inom{f_i}{0} +  inom{f_i}{2} +  inom{f_i}{4} + \dots = 2^{f_i - 1}$$
+
+তাহলে অ্যারের সবগুলো ইউনিক পজিটিভ সংখ্যার জন্য স্বাধীনভাবে জোড় সংখ্যক উপাদান বেছে নিয়ে গুণ করলে মোট উপায় দাঁড়ায়:
+$$\prod_{i=1}^{k} 2^{f_i - 1} = 2^{\sum f_i - k} = 2^{N_{pos} - k}$$
+*(এখানে $N_{pos}$ হলো অ্যারেতে থাকা মোট পজিটিভ সংখ্যার সংখ্যা এবং $k$ হলো ইউনিক পজিটিভ সংখ্যার সংখ্যা।)*
+
+---
+
+### ধাপ ২: অ্যারেতে $-1$ এর উপস্থিতি বিবেচনা করা
+ধরা যাক অ্যারেতে মোট $m$ সংখ্যক $-1$ আছে। আমরা এই $-1$ গুলোকে সাব-সিকোয়েন্সে দুইভাবে ব্যবহার করতে পারি:
+
+#### উপ-কেস ২.১: $-1$ কে জোড় সংখ্যক বার নিলে (Even Count of $-1$)
+যদি আমরা $-1$ কে জোড় সংখ্যক বার সাব-সিকোয়েন্সে অন্তর্ভুক্ত করি, তবে তাদের নিজেদের ভেতরের অল্টারনেটিং সামের নেট রেজাল্ট $0$ হয়ে যায়।
+* উদাহরণস্বরূপ: দুবার নিলে $(-1) - (-1) = 0$। চারবার নিলে $(-1) - (-1) + (-1) - (-1) = 0$।
+* মোট $m$ টি $-1$ থেকে জোড় সংখ্যক বার সিলেক্ট করার উপায় হলো $2^{m-1}$।
+
+যেহেতু $-1$ এর অংশ থেকে নেট যোগফল $0$ আসছে, তাই পুরো সাব-সিকোয়েন্সের সাম $0$ রাখতে হলে বাকি পজিティブ সংখ্যাগুলোর অংশ থেকেও স্বাধীনভাবে $0$ আসতে হবে। ধাপ ১ থেকে আমরা জানি পজিটিভ অংশ থেকে সাম $0$ পাওয়ার উপায় $2^{N_{pos} - k}$।
+따라서, এই উপ-কেসের মোট উপায়:
+$$	ext{Ways}_{	ext{even}} = 2^{m-1} 	imes 2^{N_{pos} - k}$$
+
+#### उप-কেস ২.২: $-1$ কে বিজোড় সংখ্যক বার নিলে (Odd Count of $-1$)
+যদি আমরা $-1$ কে বিজোড় সংখ্যক বার সাব-সিকোয়েন্সে অন্তর্ভুক্ত করি, তবে অল্টারনেটিং সামের নিয়ম অনুযায়ী নেট রেজাল্ট সবসময় $-1$ আসবে।
+* উদাহরণস্বরূপ: একটি $-1$ নিলে সাম $-1$। তিনটি নিলে $(-1) - (-1) + (-1) = -1$।
+* মোট $m$ টি $-1$ থেকে বিজোড় সংখ্যক বার সিলেক্ট করার উপায়ও কিন্তু গাণিতিকভাবে সমান, অর্থাৎ $2^{m-1}$।
+
+যেহেতু নেগেটিভ অংশ থেকে আমরা নেট রেজাল্ট $-1$ পাচ্ছি, তাই পুরো সাব-সিকোয়েন্সের অল্টারনেটিং সাম $0$ বানাতে হলে পজিটিভ সংখ্যার অংশ থেকে আমাদের অবশ্যই **$+1$** তৈরি করতে হবে (কারণ $-1 + 1 = 0$)।
+
+#### পজিটিভ অংশ থেকে $+1$ পাওয়ার উপায়:
+পজিটিভ সংখ্যাগুলো থেকে অল্টারনেটিং সামে $+1$ পাওয়ার একমাত্র উপায় হলো এমন দুটি সংলগ্ন সংখ্যা (adjacent pairs) বেছে নেওয়া যাদের মধ্যকার পার্থক্য ঠিক $1$ (যেমন: $x$ এবং $x+1$)। অল্টারনেটিং সামে এদের বসালে রূপটি হবে:
+$$-x + (x+1) = +1$$
+ধরা যাক, ইউনিক পজিটিভ সংখ্যাগুলোর মধ্যে এমন পাশাপাশি জোড়া (যেমন: $(1,2), (2,3), (3,4)$ ইত্যাদি) মোট $A$ টি আছে। এই $A$ টি জোড়ার যেকোনো একটিকে আমরা ব্যবহার করতে পারি। বাকি পজিটিভ সংখ্যাগুলো যথারীতি জোড় বা বিজোড় কম্বিনেশনে বিন্যস্ত হয়ে নিজেদের প্রভাব মুক্ত রাখবে, যা গাণিতিকভাবে $2^{N_{pos} - k}$ উপায়েই ঘটে।
+
+অতএব, বিজোড় সংখ্যক $-1$ ব্যবহার করে সাম $0$ বানানোর মোট উপায়:
+$$	ext{Ways}_{	ext{odd}} = 2^{m-1} 	imes 2^{N_{pos} - k} 	imes A$$
+
+---
+
+## ৩. চূড়ান্ত গাণিতিক সূত্র (Final Formula Derivation)
+
+উপরের দুটি স্বাধীন উপ-কেস (২.১ এবং ২.২) যোগ করলে আমরা যেকোনো সাধারণ কেসের জন্য চূড়ান্ত সূত্রটি পেয়ে যাই:
+
+$$	ext{Total Ways} = 	ext{Ways}_{	ext{even}} + 	ext{Ways}_{	ext{odd}}$$
+$$	ext{Total Ways} = (2^{m-1} 	imes 2^{N_{pos} - k}) + (2^{m-1} 	imes 2^{N_{pos} - k} 	imes A)$$
+
+এখন এখান থেকে কমন নিলে সাধারণ রূপটি দাঁড়ায়:
+$$	ext{Total Ways} = 2^{m-1} 	imes 2^{N_{pos} - k} 	imes (A + 1)$$
+
+---
+
+## ৪. এজ কেসসমূহ (Edge Cases Analysis)
+
+কোড ডিজাইন বা গাণিতিক বাস্তবায়নের সময় নিচের এজ কেসগুলো অত্যন্ত সতর্কতার সাথে হ্যান্ডেল করতে হবে:
+
+১. **অ্যারে সম্পূর্ণ খালি হলে (No elements):**
+   * অল্টারনেটিং সাম সরাসরি $0$ দৈর্ঘ্যের সাব-সিকোয়েন্সের জন্য ১ হবে। অর্থাৎ, $	ext{Ans} = 1$।
+
+২. **অ্যারেতে শুধুমাত্র $-1$ থাকলে (No Positive Numbers):**
+   * যেহেতু পজিটিভ সংখ্যা নেই, তাই এডজেসেন্ট পেয়ার ($A$) বা পজিটিভ পাওয়ারের কোনো অস্তিত্ব নেই।
+   * উত্তর হবে শুধুমাত্র $-1$ কে জোড় সংখ্যক বার নেওয়ার উপায়: $2^{m-1}$।
+
+৩. **অ্যারেতে শুধুমাত্র পজিটিভ সংখ্যা থাকলে (No $-1$ Present):**
+   * যেহেতু কোনো $-1$ নেই, তাই বিজোড় সংখ্যক $-1$ নিয়ে $+1$ তৈরি করার কোনো সুযোগ নেই।
+   * উত্তরটি সরাসরি ধাপ ১ এর সূত্র অনুসরণ করবে: $2^{N_{pos} - k}$।
+
+৪. **সব উপাদানই উপস্থিত থাকলে:**
+   * আমাদের প্রাপ্ত মূল সূত্রটি সরাসরি কার্যকর হবে: $2^{m-1} 	imes 2^{N_{pos} - k} 	imes (A + 1)$।
+
+*দ্রষ্টব্য: যেহেতু উত্তরটি অনেক বড় হতে পারে, তাই প্রতিটি গুণের সময় এবং পাওয়ার ক্যালকুলেশনের সময় $	ext{mod } (10^9 + 7)$ অপারেশনটি সম্পাদন করতে হবে।*
