@@ -2,5 +2,7 @@
   "obsidian-git",
   "calendar",
   "obsidian-tasks-plugin",
-  "whisper"
+  "whisper",
+  "dataview",
+  "templater-obsidian"
 ]
