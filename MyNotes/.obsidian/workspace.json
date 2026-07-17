@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STL/Vector.md",
+                "file": "STL/2D vector.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vector"
+              "title": "2D vector"
             }
           }
         ],
@@ -224,6 +224,8 @@
   "active": "5e059e6baeb456b9",
   "lastOpenFiles": [
     "STL/Set.md",
+    "STL/Queue.md",
+    "STL/Vector.md",
     "PROJECT/Simulation.md",
     "Questions Set.md",
     "Job Queue Project — প্রেজেন্টেশন গাইড.md",
@@ -239,7 +241,6 @@
     "GRAPH THEORY/DFS on Trees vs Graphs.md",
     "GRAPH THEORY/Shortest Path (BFS).md",
     "GRAPH THEORY/Is_Connected.md",
-    "STL/Vector.md",
     "BASIC ALGO/Binary Search & Efficient Searching.md",
     "GRAPH THEORY/00_Graph_Theory.md",
     "GRAPH THEORY/Graph & Tree Terminology.md",
@@ -251,7 +252,6 @@
     "BITWISE OPERATION/Bitwise Subtraction & Subset Magic (1400 Rating Analysis).md",
     "BITWISE OPERATION/Bit Manipulation & Bitwise Wizardry.md",
     "2026-05-22.md",
-    "BITWISE OPERATION/00_Bitwise_Operation.md",
     "DP",
     "STRING",
     "Tree Diameter (DFS",
