@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STL/Map.md",
+                "file": "STL/Vector.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Map"
+              "title": "Vector"
             }
           }
         ],
@@ -224,6 +224,7 @@
   },
   "active": "5e059e6baeb456b9",
   "lastOpenFiles": [
+    "STL/Map.md",
     "PROBLEM IN PROBLEMS/Untitled.md",
     "Questions Set.md",
     "PROBLEM IN PROBLEMS",
@@ -253,7 +254,6 @@
     "GRAPH THEORY/Weighted Graph (Basics & Traversal.md",
     "GRAPH THEORY/Tree Diameter (DFS Approach).md",
     "STL/Vector of Pairs.md",
-    "BITWISE OPERATION/Bitwise Subtraction & Subset Magic (1400 Rating Analysis).md",
     "DP",
     "STRING",
     "Tree Diameter (DFS",
