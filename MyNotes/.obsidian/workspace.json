@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STL/Vector.md",
-                "mode": "preview",
+                "file": "DP/01. 0-1 Knapsack Problem.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vector"
+              "title": "01. 0-1 Knapsack Problem"
             }
           }
         ],
@@ -224,6 +224,14 @@
   },
   "active": "5e059e6baeb456b9",
   "lastOpenFiles": [
+    "DP/00_Dynamic_Programming.md",
+    "DP/01. 0-1 Knapsack Problem.md",
+    "0/1 Knapsack Problem.md",
+    "DP/1 Knapsack  Problem.md",
+    "0",
+    "01. 0",
+    "DP/Dynamic Programming (DP) - Beginner to Pro Guide.md",
+    "STL/Vector.md",
     "STL/Map.md",
     "PROBLEM IN PROBLEMS/Untitled.md",
     "Questions Set.md",
@@ -233,7 +241,6 @@
     "STL/2D vector.md",
     "STL/Set.md",
     "STL/Queue.md",
-    "STL/Vector.md",
     "PROJECT/Simulation.md",
     "PROJECT",
     "Untitled 1.md",
@@ -249,18 +256,11 @@
     "BASIC ALGO/Binary Search & Efficient Searching.md",
     "GRAPH THEORY/00_Graph_Theory.md",
     "GRAPH THEORY/Graph & Tree Terminology.md",
-    "GRAPH THEORY/Breadth-First Search (BFS).md",
-    "GRAPH THEORY/All-Nodes Maximum Distance.md",
-    "GRAPH THEORY/Weighted Graph (Basics & Traversal.md",
-    "GRAPH THEORY/Tree Diameter (DFS Approach).md",
-    "STL/Vector of Pairs.md",
     "DP",
     "STRING",
     "Tree Diameter (DFS",
     "abar",
     "NUMBER THEORY",
-    "BITWISE OPERATION",
-    "GRAPH THEORY",
     "Untitled.canvas",
     "Pasted image 20260309132606.png"
   ]
