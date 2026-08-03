@@ -3,5 +3,6 @@
   "cssTheme": "Iridium",
   "enabledCssSnippets": [
     "bangla-font"
-  ]
+  ],
+  "accentColor": ""
 }
