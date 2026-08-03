@@ -1,4 +1,4 @@
-- [[Dynamic Programming (DP) - Beginner to Pro Guide]]
+- [[000. Dynamic Programming (DP) - Beginner to Pro Guide]]
 - [[01. 0-1 Knapsack Problem]]
 - [[02. 0-1 Knapsack Problem (Huge Bucket Size. W 1e9)]]
 - [[03. Coin Combinations I (CSES)]]
