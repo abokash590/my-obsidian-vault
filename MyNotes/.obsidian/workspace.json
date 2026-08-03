@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DP/06. List of Minimum Coins.md",
-                "mode": "preview",
+                "file": "DP/01. 0-1 Knapsack Problem.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06. List of Minimum Coins"
+              "title": "01. 0-1 Knapsack Problem"
             }
           }
         ],
@@ -226,9 +226,12 @@
   },
   "active": "5e059e6baeb456b9",
   "lastOpenFiles": [
+    "DP/03. Coin Combinations I (CSES).md",
+    "DP/07. 2D DP Retrival.md",
+    "DP/01. 0-1 Knapsack Problem.md",
     "DP/00_Dynamic_Programming.md",
-    "DP/06. List of Minimum Coins.md",
     "DP/000. Dynamic Programming (DP) - Beginner to Pro Guide.md",
+    "DP/06. List of Minimum Coins (Retrieval).md",
     "STL/09. Stack.md",
     "STL/01. Vector.md",
     "STL/13. Policy Based Data Structure (PBDS).md",
@@ -245,17 +248,14 @@
     "STL/02. 2D vector.md",
     "03. Set.md",
     "DP/05. A. Cut Ribbon (CF).md",
-    "DP/03. Coin Combinations I (CSES).md",
     "DP/04. Coin Combinations II (CSES).md",
     "DP/02. 0-1 Knapsack Problem (Huge Bucket Size. W 1e9).md",
-    "DP/01. 0-1 Knapsack Problem.md",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files/288f5e14-4ed4-48df-a753-b4a2ed687ade/preview.md",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files/288f5e14-4ed4-48df-a753-b4a2ed687ade",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d",
     "api",
     "04..md",
-    "0/1 Knapsack Problem.md",
     "0",
     "01. 0",
     "PROBLEM IN PROBLEMS",
