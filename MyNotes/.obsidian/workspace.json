@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DP/00_Dynamic_Programming.md",
+                "file": "DP/04. Coin Combinations II (CSES).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00_Dynamic_Programming"
+              "title": "04. Coin Combinations II (CSES)"
             }
           }
         ],
@@ -226,10 +226,10 @@
   },
   "active": "5e059e6baeb456b9",
   "lastOpenFiles": [
+    "DP/00_Dynamic_Programming.md",
     "DP/07. 2D DP (Retrival).md",
     "DP/01. 0-1 Knapsack Problem.md",
     "DP/03. Coin Combinations I (CSES).md",
-    "DP/00_Dynamic_Programming.md",
     "DP/000. Dynamic Programming (DP) - Beginner to Pro Guide.md",
     "DP/06. List of Minimum Coins (Retrieval).md",
     "STL/09. Stack.md",
