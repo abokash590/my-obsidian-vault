@@ -1,5 +1,5 @@
-- [[Graph & Tree Terminology]]
-- [[Graph Representation]]
-- [[Breadth-First Search (BFS)]]
-- [[Depth-First Search (DFS)]]
+- [[01. Graph & Tree Terminology]]
+- [[02. Graph Representation]]
+- [[03. Breadth-First Search (BFS)]]
+- [[09. Depth-First Search (DFS)]]
 - 
