@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STRING/01. KMP Algorithm (String Matching).md",
-                "mode": "preview",
+                "file": "STRING/02. Queries in Palindrome.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01. KMP Algorithm (String Matching)"
+              "title": "02. Queries in Palindrome"
             }
           }
         ],
@@ -226,11 +226,16 @@
   },
   "active": "3d0cb96ab97a7460",
   "lastOpenFiles": [
+    "STRING/00_String.md",
+    "STRING/02. Queries in Palindrome.md",
+    "STL/02. 2D vector.md",
+    "STL/05. Set.md",
+    "STL/09. Stack.md",
+    "PROJECT/Simulation.md",
     "Study Tracker.md",
     "Questions Set.md",
     "Job Queue Project — প্রেজেন্টেশন গাইড.md",
     "STRING/01. KMP Algorithm (String Matching).md",
-    "STRING/00_String.md",
     "GRAPH THEORY/17. Bi-coloring (Bipartite Graph).md",
     "GRAPH THEORY/15. Weighted Graph (Basics & Traversal.md",
     "GRAPH THEORY/21. Topological Sort (DFS Method).md",
@@ -247,11 +252,6 @@
     "GRAPH THEORY/00_Graph_Theory.md",
     "GRAPH THEORY/08. Shortest Path (BFS).md",
     "GRAPH THEORY/07. Multi-Source BFS.md",
-    "GRAPH THEORY/06. Number of Connected Graph.md",
-    "GRAPH THEORY/05. Is_Connected.md",
-    "GRAPH THEORY/04. Is_Tree.md",
-    "GRAPH THEORY/03. Breadth-First Search (BFS).md",
-    "GRAPH THEORY/02. Graph Representation.md",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files/288f5e14-4ed4-48df-a753-b4a2ed687ade",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d",
