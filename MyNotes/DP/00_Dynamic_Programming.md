@@ -6,4 +6,5 @@
 - [[05. A. Cut Ribbon (CF)]]
 - [[06. List of Minimum Coins (Retrieval)]]
 - [[07. 2D DP (Retrival)]]
+- [[08. Queries in Palindrome]]
 - 
