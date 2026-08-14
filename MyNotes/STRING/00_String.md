@@ -1,2 +1,2 @@
-- [[KMP Algorithm (String Matching)]]
+- [[01. KMP Algorithm (String Matching)]]
 - 
