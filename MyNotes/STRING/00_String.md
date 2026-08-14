@@ -1,3 +1,3 @@
 - [[01. KMP Algorithm (String Matching)]]
-- [[02. Queries in Palindrome]]
+- [[02. Queries for Palindrome]]
 - 
