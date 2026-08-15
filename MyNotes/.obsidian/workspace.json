@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STRING/02. Queries for Palindrome.md",
+                "file": "DP/08. Queries for Palindrome in Substring.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02. Queries for Palindrome"
+              "title": "08. Queries for Palindrome in Substring"
             }
           }
         ],
@@ -226,8 +226,8 @@
   },
   "active": "5e059e6baeb456b9",
   "lastOpenFiles": [
-    "DP/08. Queries for Palindrome.md",
-    "STRING/02. Queries for Palindrome.md",
+    "STRING/02. Queries for Palindrome in Substring.md",
+    "DP/08. Queries for Palindrome in Substring.md",
     "DP/00_Dynamic_Programming.md",
     "STRING/00_String.md",
     "STL/02. 2D vector.md",
