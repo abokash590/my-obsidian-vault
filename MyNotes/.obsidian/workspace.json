@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DP/08. Queries for Palindrome in Substring.md",
+                "file": "STRING/03. Longest Palindromic Subsequence.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08. Queries for Palindrome in Substring"
+              "title": "03. Longest Palindromic Subsequence"
             }
           }
         ],
@@ -226,9 +226,13 @@
   },
   "active": "5e059e6baeb456b9",
   "lastOpenFiles": [
-    "STRING/02. Queries for Palindrome in Substring.md",
-    "DP/08. Queries for Palindrome in Substring.md",
+    "DP/07. 2D DP (Retrival).md",
+    "DP/09. Longest Palindromic Subsequence.md",
+    "STRING/03. Longest Palindromic Subsequence.md",
     "DP/00_Dynamic_Programming.md",
+    "DP/08. Queries for Palindrome in Substring.md",
+    "STRING/02. Queries for Palindrome in Substring.md",
+    "STRING/01. KMP Algorithm (String Matching).md",
     "STRING/00_String.md",
     "STL/02. 2D vector.md",
     "STL/05. Set.md",
@@ -237,7 +241,6 @@
     "Study Tracker.md",
     "Questions Set.md",
     "Job Queue Project — প্রেজেন্টেশন গাইড.md",
-    "STRING/01. KMP Algorithm (String Matching).md",
     "GRAPH THEORY/17. Bi-coloring (Bipartite Graph).md",
     "GRAPH THEORY/15. Weighted Graph (Basics & Traversal.md",
     "GRAPH THEORY/21. Topological Sort (DFS Method).md",
@@ -249,9 +252,6 @@
     "GRAPH THEORY/13. Tree Diameter (DFS Approach).md",
     "GRAPH THEORY/12. Subtree Size in a Tree.md",
     "GRAPH THEORY/11. Level of Tree (DFS).md",
-    "GRAPH THEORY/10. DFS on Trees vs Graphs.md",
-    "GRAPH THEORY/09. Depth-First Search (DFS).md",
-    "GRAPH THEORY/00_Graph_Theory.md",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files/288f5e14-4ed4-48df-a753-b4a2ed687ade",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d",

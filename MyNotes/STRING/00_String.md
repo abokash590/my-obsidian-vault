@@ -1,3 +1,4 @@
 - [[01. KMP Algorithm (String Matching)]]
 - [[02. Queries for Palindrome in Substring]]
+- [[03. Longest Palindromic Subsequence]]
 - 
