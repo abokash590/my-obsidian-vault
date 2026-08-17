@@ -5,4 +5,5 @@
 - [[03. Prime Divisors (Smallest Prime Factor Sieve)]]
 - [[04. Lowest Divisor of a Number]]
 - [[05. Number of Divisors (Divisor Count Sieve)]]
+- [[06. Sum of Divisors]]
 - 
