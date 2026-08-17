@@ -7,4 +7,5 @@
 - [[05. Number of Divisors (Divisor Count Sieve)]]
 - [[06. Sum of Divisors]]
 - [[07. Sum of Divisors — Prime Factorization Formula]]
+- [[08. Divisor Summatory Function — sqrt(N) Block Decomposition]]
 - 
