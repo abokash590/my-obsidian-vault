@@ -6,4 +6,5 @@
 - [[04. Lowest Divisor of a Number]]
 - [[05. Number of Divisors (Divisor Count Sieve)]]
 - [[06. Sum of Divisors]]
+- [[07. Sum of Divisors — Prime Factorization Formula]]
 - 
