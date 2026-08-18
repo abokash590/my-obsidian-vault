@@ -9,4 +9,5 @@
 - [[07. Sum of Divisors — Prime Factorization Formula]]
 - [[08. Divisor Summatory Function — sqrt(N) Block Decomposition]]
 - [[09. Euler's Totient Function (φ)]]
+- [[10. Both-Direction Fixed-Distance Movement → GCD]]
 - 
