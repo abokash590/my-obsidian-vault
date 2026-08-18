@@ -8,4 +8,5 @@
 - [[06. Sum of Divisors]]
 - [[07. Sum of Divisors — Prime Factorization Formula]]
 - [[08. Divisor Summatory Function — sqrt(N) Block Decomposition]]
+- [[09. Euler's Totient Function (φ)]]
 - 
