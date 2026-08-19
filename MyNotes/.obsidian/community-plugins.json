@@ -4,5 +4,6 @@
   "obsidian-tasks-plugin",
   "whisper",
   "dataview",
-  "templater-obsidian"
+  "templater-obsidian",
+  "highlightr-plugin"
 ]

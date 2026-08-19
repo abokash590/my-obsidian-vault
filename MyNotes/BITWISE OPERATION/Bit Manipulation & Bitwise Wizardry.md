@@ -4,14 +4,14 @@
 
 ### 🧠 1. Core Bitwise Operators
 
-|**Operator**|**Name**|**Logic**|**Rule of Thumb**|
-|---|---|---|---|
-|`&`|**AND**|দুটি বিট-ই `1` হলে `1`, না হলে `0`|Clearing / Checking bits|
-|`\|`|**OR**|যেকোনো একটি বিট `1` হলেই `1`|Setting bits|
-|`^`|**XOR**|দুটি বিট আলাদা হলে `1`, এক হলে `0`|Toggling / Odd-Even count|
-|`~`|**NOT**|`1` থাকলে `0`, `0` থাকলে `1`|Inverting all bits|
-|`<<`|**Left Shift**|বিটগুলোকে বামে সরায়, ডানপাশে `0` বসে|Multiply by $2^k$|
-|`>>`|**Right Shift**|বিটগুলোকে ডানে সরায়, বামপাশে `0` বসে|Divide by $2^k$|
+| **Operator** | **Name**        | **Logic**                            | **Rule of Thumb**         |
+| ------------ | --------------- | ------------------------------------ | ------------------------- |
+| `&`          | **AND**         | দুটি বিট-ই `1` হলে `1`, না হলে `0`   | Clearing / Checking bits  |
+| `\|`         | **OR**          | যেকোনো একটি বিট `1` হলেই `1`         | Setting bits              |
+| `^`          | **XOR**         | দুটি বিট আলাদা হলে `1`, এক হলে `0`   | Toggling / Odd-Even count |
+| `~`          | **NOT**         | `1` থাকলে `0`, `0` থাকলে `1`         | Inverting all bits        |
+| `<<`         | **Left Shift**  | বিটগুলোকে বামে সরায়, ডানপাশে `0` বসে | Multiply by $2^k$         |
+| `>>`         | **Right Shift** | বিটগুলোকে ডানে সরায়, বামপাশে `0` বসে | Divide by $2^k$           |
 
 ---
 
