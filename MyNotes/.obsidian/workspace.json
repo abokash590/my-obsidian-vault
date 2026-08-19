@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NUMBER THEORY/06. Sum of Divisors.md",
+                "file": "BITWISE OPERATION/Bit Manipulation & Bitwise Wizardry.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06. Sum of Divisors"
+              "title": "Bit Manipulation & Bitwise Wizardry"
             }
           }
         ],
@@ -222,6 +222,11 @@
   },
   "active": "5e059e6baeb456b9",
   "lastOpenFiles": [
+    "BITWISE OPERATION/00_Bitwise_Operation.md",
+    "GRAPH THEORY/19. Topological Sort (Kahn's Algorithm).md",
+    "STL/02. 2D vector.md",
+    "NUMBER THEORY/05. Number of Divisors (Divisor Count Sieve).md",
+    "NUMBER THEORY/06. Sum of Divisors.md",
     "NUMBER THEORY/04. Lowest Divisor of a Number.md",
     "NUMBER THEORY/02. Sieve of Eratosthenes.md",
     "NUMBER THEORY/00_Number Theory.md",
@@ -231,10 +236,8 @@
     "NUMBER THEORY/07. Sum of Divisors — Prime Factorization Formula.md",
     "NUMBER THEORY/Prime Number Estimation (CP-Library).md",
     "NUMBER THEORY/03. Prime Divisors (Smallest Prime Factor Sieve).md",
-    "NUMBER THEORY/06. Sum of Divisors.md",
     "STRING/02. Queries for Palindrome in Substring.md",
     "STRING/03. Longest Palindromic Subsequence.md",
-    "NUMBER THEORY/05. Number of Divisors (Divisor Count Sieve).md",
     "NUMBER THEORY/01. Harmony Series.md",
     "NUMBER THEORY/GCD & LCM.md",
     "NUMBER THEORY/GCD (Greatest Common Divisor).md",
@@ -245,9 +248,6 @@
     "DP/08. Queries for Palindrome in Substring.md",
     "STRING/01. KMP Algorithm (String Matching).md",
     "STRING/00_String.md",
-    "STL/02. 2D vector.md",
-    "STL/05. Set.md",
-    "STL/09. Stack.md",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files/288f5e14-4ed4-48df-a753-b4a2ed687ade",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d",
