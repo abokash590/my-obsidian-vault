@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACHINE LEARNING/1.4 EDA (Exploratory Data Analysis).md",
+                "file": "MACHINE LEARNING/1.3 ML Pipeline MOC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.4 EDA (Exploratory Data Analysis)"
+              "title": "1.3 ML Pipeline MOC"
             }
           }
         ],
@@ -234,10 +234,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "64da81a4a49a9c98",
+  "active": "3d0cb96ab97a7460",
   "lastOpenFiles": [
-    "MACHINE LEARNING/1.3 ML Pipeline MOC.md",
     "MACHINE LEARNING/1.4 EDA (Exploratory Data Analysis).md",
+    "STL/08. Map.md",
+    "MACHINE LEARNING/1.3 ML Pipeline MOC.md",
     "MACHINE LEARNING/1.2 Types of ML.md",
     "EDA.md",
     "MACHINE LEARNING/00. ML.md",
@@ -263,7 +264,6 @@
     "STRING/02. Queries for Palindrome in Substring.md",
     "STRING/03. Longest Palindromic Subsequence.md",
     "NUMBER THEORY/01. Harmony Series.md",
-    "NUMBER THEORY/GCD & LCM.md",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files/288f5e14-4ed4-48df-a753-b4a2ed687ade",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d",
