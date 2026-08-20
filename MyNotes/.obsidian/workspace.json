@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACHINE LEARNING/FOUNDATION/1. FOUNDATION.md",
+                "file": "MACHINE LEARNING/FOUNDATION/1.1 AI vs ML vs DL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. FOUNDATION"
+              "title": "1.1 AI vs ML vs DL"
             }
           }
         ],
@@ -236,16 +236,17 @@
   },
   "active": "3d0cb96ab97a7460",
   "lastOpenFiles": [
+    "MACHINE LEARNING/UNGA_BUNGA",
+    "MACHINE LEARNING/FOUNDATION/1.3 ML Pipeline MOC.md",
+    "MACHINE LEARNING/FOUNDATION/1.2 Types of ML.md",
+    "MACHINE LEARNING/FOUNDATION/1.1 AI vs ML vs DL.md",
+    "MACHINE LEARNING/FOUNDATION/1. FOUNDATION.md",
     "MACHINE LEARNING/FOUNDATION/1.4 EDA (Exploratory Data Analysis).md",
     "MACHINE LEARNING/FOUNDATION",
     "Untitled.md",
     "CP",
-    "MACHINE LEARNING/FOUNDATION/1.3 ML Pipeline MOC.md",
-    "MACHINE LEARNING/FOUNDATION/1.2 Types of ML.md",
-    "MACHINE LEARNING/FOUNDATION/1.1 AI vs ML vs DL.md",
     "CP/STL/08. Map.md",
     "EDA.md",
-    "MACHINE LEARNING/FOUNDATION/1. FOUNDATION.md",
     "MACHINE LEARNING/Untitled/Untitled.md",
     "CP/BITWISE OPERATION/Bit Manipulation & Bitwise Wizardry.md",
     "MACHINE LEARNING/Untitled",
