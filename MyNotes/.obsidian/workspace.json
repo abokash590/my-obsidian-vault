@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEETCODE_150/ARRAYS & HASHING/1.5 Top K Frequent Elements.md",
-                "mode": "preview",
+                "file": "NEETCODE_150/ARRAYS & HASHING/1.2 Valid Anagram.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.5 Top K Frequent Elements"
+              "title": "1.2 Valid Anagram"
             }
           }
         ],
@@ -264,8 +264,13 @@
   },
   "active": "7c0d7c2eec516877",
   "lastOpenFiles": [
-    "NEETCODE_150/ARRAYS & HASHING/1.3 Two Sum.md",
+    "CP/STL/01. Vector.md",
+    "CP/STL/00_STL_Index.md",
+    "CP/STL/04. Vector of  Tuple.md",
+    "CP/STL/03. Vector of Pairs.md",
+    "CP/STL/02. 2D vector.md",
     "NEETCODE_150/ARRAYS & HASHING/1.5 Top K Frequent Elements.md",
+    "NEETCODE_150/ARRAYS & HASHING/1.3 Two Sum.md",
     "NEETCODE_150/ARRAYS & HASHING/1. Array & Hashing.md",
     "NEETCODE_150/ARRAYS & HASHING/1.4 Group Anagrams.md",
     "NEETCODE_150/ARRAYS & HASHING/1.1 Contains Duplicate.md",
@@ -293,11 +298,6 @@
     "MACHINE LEARNING/Untitled/Untitled.md",
     "MACHINE LEARNING/Untitled",
     "MACHINE LEARNING",
-    "CP/BITWISE OPERATION/00_Bitwise_Operation.md",
-    "CP/GRAPH THEORY/19. Topological Sort (Kahn's Algorithm).md",
-    "CP/STL/02. 2D vector.md",
-    "CP/NUMBER THEORY/04. Lowest Divisor of a Number.md",
-    "CP/NUMBER THEORY/02. Sieve of Eratosthenes.md",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files/288f5e14-4ed4-48df-a753-b4a2ed687ade",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files",
     "Pasted image 20260616123056.png",
