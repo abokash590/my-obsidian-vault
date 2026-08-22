@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACHINE LEARNING/NUMPY/1. Numpy Array.md",
+                "file": "MACHINE LEARNING/NUMPY/1. NumPy Array.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Numpy Array"
+              "title": "1. NumPy Array"
             }
           }
         ],
@@ -262,10 +262,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3d0cb96ab97a7460",
+  "active": "7c0d7c2eec516877",
   "lastOpenFiles": [
-    "MACHINE LEARNING/NUMPY/0. Numpy.md",
-    "MACHINE LEARNING/NUMPY/1. Numpy Array.md",
+    "MACHINE LEARNING/NUMPY/0. NumPy.md",
+    "MACHINE LEARNING/NUMPY/1. NumPy Array.md",
     "MACHINE LEARNING/FOUNDATION/1. FOUNDATION.md",
     "NEETCODE_150/ARRAYS & HASHING/1.2 Valid Anagram.md",
     "CP/STL/01. Vector.md",
