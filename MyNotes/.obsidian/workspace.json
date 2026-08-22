@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEETCODE_150/ARRAYS & HASHING/1.2 Valid Anagram.md",
-                "mode": "source",
+                "file": "MACHINE LEARNING/NUMPY/1. Numpy Array.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.2 Valid Anagram"
+              "title": "1. Numpy Array"
             }
           }
         ],
@@ -262,8 +262,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7c0d7c2eec516877",
+  "active": "3d0cb96ab97a7460",
   "lastOpenFiles": [
+    "MACHINE LEARNING/NUMPY/0. Numpy.md",
+    "MACHINE LEARNING/NUMPY/1. Numpy Array.md",
+    "MACHINE LEARNING/FOUNDATION/1. FOUNDATION.md",
+    "NEETCODE_150/ARRAYS & HASHING/1.2 Valid Anagram.md",
     "CP/STL/01. Vector.md",
     "CP/STL/00_STL_Index.md",
     "CP/STL/04. Vector of  Tuple.md",
@@ -274,7 +278,6 @@
     "NEETCODE_150/ARRAYS & HASHING/1. Array & Hashing.md",
     "NEETCODE_150/ARRAYS & HASHING/1.4 Group Anagrams.md",
     "NEETCODE_150/ARRAYS & HASHING/1.1 Contains Duplicate.md",
-    "NEETCODE_150/ARRAYS & HASHING/1.2 Valid Anagram.md",
     "CP/STL/08. Map.md",
     "Untitled",
     "NEETCODE_150/ARRAYS & HASHING",
@@ -285,17 +288,14 @@
     "CP/NUMBER THEORY/01. Harmony Series.md",
     "CP/NUMBER THEORY/00_Number Theory.md",
     "CP/BITWISE OPERATION/Bit Manipulation & Bitwise Wizardry.md",
-    "MACHINE LEARNING/UNGA_BUNGA/DFEFG.md",
     "MACHINE LEARNING/FOUNDATION/1.1 AI vs ML vs DL.md",
-    "MACHINE LEARNING/UNGA_BUNGA",
+    "MACHINE LEARNING/NUMPY",
     "MACHINE LEARNING/FOUNDATION/1.3 ML Pipeline MOC.md",
     "MACHINE LEARNING/FOUNDATION/1.2 Types of ML.md",
-    "MACHINE LEARNING/FOUNDATION/1. FOUNDATION.md",
     "MACHINE LEARNING/FOUNDATION/1.4 EDA (Exploratory Data Analysis).md",
     "MACHINE LEARNING/FOUNDATION",
     "CP",
     "EDA.md",
-    "MACHINE LEARNING/Untitled/Untitled.md",
     "MACHINE LEARNING/Untitled",
     "MACHINE LEARNING",
     "api/2eebf342-0534-47f7-8ea3-7954a3f64c5d/files/288f5e14-4ed4-48df-a753-b4a2ed687ade",
