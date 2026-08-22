@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NEETCODE_150/ARRAYS & HASHING/1.7 Products of Array Except Self.md",
-                "mode": "source",
+                "file": "NEETCODE_150/ARRAYS & HASHING/1.8 Valid Sudoku.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.7 Products of Array Except Self"
+              "title": "1.8 Valid Sudoku"
             }
           }
         ],
@@ -262,9 +262,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3d0cb96ab97a7460",
+  "active": "7c0d7c2eec516877",
   "lastOpenFiles": [
     "NEETCODE_150/ARRAYS & HASHING/1. Array & Hashing.md",
+    "NEETCODE_150/ARRAYS & HASHING/1.8 Valid Sudoku.md",
+    "CP/STL/05. Set.md",
     "NEETCODE_150/ARRAYS & HASHING/1.7 Products of Array Except Self.md",
     "MACHINE LEARNING/NUMPY/1. NumPy Array.md",
     "MACHINE LEARNING/NUMPY/0. NumPy.md",
@@ -292,8 +294,6 @@
     "MACHINE LEARNING/FOUNDATION/1.1 AI vs ML vs DL.md",
     "MACHINE LEARNING/NUMPY",
     "MACHINE LEARNING/FOUNDATION/1.3 ML Pipeline MOC.md",
-    "MACHINE LEARNING/FOUNDATION/1.2 Types of ML.md",
-    "MACHINE LEARNING/FOUNDATION/1.4 EDA (Exploratory Data Analysis).md",
     "MACHINE LEARNING/FOUNDATION",
     "CP",
     "MACHINE LEARNING/Untitled",
