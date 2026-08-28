@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CP/NUMBER THEORY/06. Sum of Divisors.md",
-                "mode": "source",
+                "file": "CP/NUMBER THEORY/08. Divisor Summatory Function — sqrt(N) Block Decomposition.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06. Sum of Divisors"
+              "title": "08. Divisor Summatory Function — sqrt(N) Block Decomposition"
             }
           }
         ]
@@ -196,9 +196,9 @@
   },
   "active": "a0623f477a860f8d",
   "lastOpenFiles": [
+    "CP/NUMBER THEORY/06. Sum of Divisors.md",
     "CP/NUMBER THEORY/10. Both-Direction Fixed-Distance Movement → GCD.md",
     "CP/NUMBER THEORY/08. Divisor Summatory Function — sqrt(N) Block Decomposition.md",
-    "CP/NUMBER THEORY/06. Sum of Divisors.md",
     "CP/NUMBER THEORY/07. Sum of Divisors — Prime Factorization Formula.md",
     "CP/NUMBER THEORY/03. Prime Divisors (Smallest Prime Factor Sieve).md",
     "CP/NUMBER THEORY/04. Lowest Divisor of a Number.md",
