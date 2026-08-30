@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CP/NUMBER THEORY/09. Euler's Totient Function (φ).md",
+                "file": "CP/STL/02. 2D vector.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09. Euler's Totient Function (φ)"
+              "title": "02. 2D vector"
             }
           }
         ]
@@ -196,6 +196,8 @@
   },
   "active": "a0623f477a860f8d",
   "lastOpenFiles": [
+    "CP/STL/01. Vector.md",
+    "CP/NUMBER THEORY/09. Euler's Totient Function (φ).md",
     "CP/NUMBER THEORY/07. Sum of Divisors — Prime Factorization Formula.md",
     "CP/NUMBER THEORY/06. Sum of Divisors.md",
     "CP/NUMBER THEORY/08. Divisor Summatory Function — sqrt(N) Block Decomposition.md",
@@ -210,7 +212,6 @@
     "NEETCODE_150/ARRAYS & HASHING/1.6 Encode and Decode Strings.md",
     "NEETCODE_150/ARRAYS & HASHING/1.2 Valid Anagram.md",
     "CP/STL/08. Map.md",
-    "CP/STL/01. Vector.md",
     "CP/STL/02. 2D vector.md",
     "CP/BASIC ALGO/Binary Search & Efficient Searching.md",
     "CP/BASIC ALGO/00_Basic_Algo.md",
@@ -223,7 +224,6 @@
     "CP/STL/00_STL_Index.md",
     "NEETCODE_150/ARRAYS & HASHING/1.9 Longest Consecutive Sequence.md",
     "CP/STL/14. Unordered Set.md",
-    "CP/STL/05. Set.md",
     "NEETCODE_150/ARRAYS & HASHING",
     "NEETCODE_150",
     "MACHINE LEARNING/NUMPY",
