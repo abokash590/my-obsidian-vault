@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CP/STL/02. 2D vector.md",
+                "file": "CP/GRAPH THEORY/09. Depth-First Search (DFS).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02. 2D vector"
+              "title": "09. Depth-First Search (DFS)"
             }
           }
         ]
@@ -196,6 +196,13 @@
   },
   "active": "a0623f477a860f8d",
   "lastOpenFiles": [
+    "CP/DP/02. 0-1 Knapsack Problem (Huge Bucket Size. W 1e9).md",
+    "CP/DP/00_Dynamic_Programming.md",
+    "gfhfgh.md",
+    "CP/GRAPH THEORY/02. Graph Representation.md",
+    "CP/GRAPH THEORY/01. Graph & Tree Terminology.md",
+    "CP/GRAPH THEORY/00_Graph_Theory.md",
+    "CP/STL/02. 2D vector.md",
     "CP/STL/01. Vector.md",
     "CP/NUMBER THEORY/09. Euler's Totient Function (φ).md",
     "CP/NUMBER THEORY/07. Sum of Divisors — Prime Factorization Formula.md",
@@ -212,18 +219,11 @@
     "NEETCODE_150/ARRAYS & HASHING/1.6 Encode and Decode Strings.md",
     "NEETCODE_150/ARRAYS & HASHING/1.2 Valid Anagram.md",
     "CP/STL/08. Map.md",
-    "CP/STL/02. 2D vector.md",
     "CP/BASIC ALGO/Binary Search & Efficient Searching.md",
     "CP/BASIC ALGO/00_Basic_Algo.md",
     "NEETCODE_150/STACK/2.1 Valid Parentheses.md",
-    "NEETCODE_150/STACK/2. Stack.md",
     "Untitled",
     "NEETCODE_150/STACK",
-    "NEETCODE_150/ARRAYS & HASHING/1. Array & Hashing.md",
-    "CP/STL/15. String.md",
-    "CP/STL/00_STL_Index.md",
-    "NEETCODE_150/ARRAYS & HASHING/1.9 Longest Consecutive Sequence.md",
-    "CP/STL/14. Unordered Set.md",
     "NEETCODE_150/ARRAYS & HASHING",
     "NEETCODE_150",
     "MACHINE LEARNING/NUMPY",
