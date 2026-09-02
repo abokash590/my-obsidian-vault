@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. NumPy Array Operations.md",
+                "file": "MACHINE LEARNING/NUMPY/3. NumPy Array Operations.md",
                 "mode": "preview",
                 "source": false
               },
@@ -195,10 +195,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a0623f477a860f8d",
+  "active": "3d0cb96ab97a7460",
   "lastOpenFiles": [
     "MACHINE LEARNING/NUMPY/0. NumPy.md",
-    "3. NumPy Array Operations.md",
+    "MACHINE LEARNING/NUMPY/3. NumPy Array Operations.md",
     "MACHINE LEARNING/NUMPY/2. NumPy Array Indexing & Slicing.md",
     "gfhfgh.md",
     "MACHINE LEARNING/NUMPY/1. NumPy Array.md",
