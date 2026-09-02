@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACHINE LEARNING/NUMPY/2. NumPy Array Indexing & Slicing.md",
-                "mode": "source",
+                "file": "3. NumPy Array Operations.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. NumPy Array Indexing & Slicing"
+              "title": "3. NumPy Array Operations"
             }
           }
         ]
@@ -195,11 +195,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3d0cb96ab97a7460",
+  "active": "a0623f477a860f8d",
   "lastOpenFiles": [
-    "gfhfgh.md",
-    "MACHINE LEARNING/NUMPY/2. NumPy Array Indexing & Slicing.md",
     "MACHINE LEARNING/NUMPY/0. NumPy.md",
+    "3. NumPy Array Operations.md",
+    "MACHINE LEARNING/NUMPY/2. NumPy Array Indexing & Slicing.md",
+    "gfhfgh.md",
     "MACHINE LEARNING/NUMPY/1. NumPy Array.md",
     "CP/STL/13. Policy Based Data Structure (PBDS).md",
     "CP/GRAPH THEORY/09. Depth-First Search (DFS).md",
@@ -222,7 +223,6 @@
     "CP/NUMBER THEORY/Circular Traversal & GCD.md",
     "CP/NUMBER THEORY/GCD & LCM.md",
     "NEETCODE_150/ARRAYS & HASHING/1.6 Encode and Decode Strings.md",
-    "NEETCODE_150/ARRAYS & HASHING/1.2 Valid Anagram.md",
     "Untitled",
     "NEETCODE_150/STACK",
     "NEETCODE_150/ARRAYS & HASHING",
