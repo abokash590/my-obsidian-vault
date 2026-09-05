@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "01. Vector"
             }
+          },
+          {
+            "id": "936a735a82e1d91d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PYTHON/00 Python Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "00 Python Index"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,35 +210,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a0623f477a860f8d",
+  "active": "936a735a82e1d91d",
   "lastOpenFiles": [
+    "PYTHON/16_Modules.md",
+    "PYTHON/00 Python Index.md",
+    "PYTHON/15_Iterators_Generators.md",
+    "PYTHON/14_File_Handling.md",
+    "PYTHON/13_Exception_Handling.md",
+    "PYTHON/12_OOP_Basics.md",
+    "PYTHON/11_Functions.md",
+    "PYTHON/10_Comprehensions.md",
+    "PYTHON/09_Set.md",
+    "PYTHON/07_Tuple.md",
+    "PYTHON/08_Dictionary.md",
+    "PYTHON/06_List.md",
+    "PYTHON/02_Operators.md",
+    "NEETCODE_150/STACK/2.3 Evaluate Reverse Polish Notation.md",
+    "PYTHON/05_String.md",
+    "PYTHON/04_Control_Flow.md",
+    "PYTHON/03_Input_Output.md",
+    "PYTHON/01_Variables_DataTypes.md",
+    "CP/STL/03. Vector of Pairs.md",
+    "00_Python_Index.md",
+    "CP/STL/01. Vector.md",
+    "PYTHON",
+    "MACHINE LEARNING/NUMPY/1. NumPy Array.md",
     "CP/STRING/02. Queries for Palindrome in Substring.md",
     "CP/STL/13. Policy Based Data Structure (PBDS).md",
     "CP/STL/12. Priority Queue.md",
     "CP/STL/11. Deque.md",
-    "CP/STL/10. Queue.md",
-    "CP/STL/08. Map.md",
-    "CP/STL/07. Multiset.md",
-    "CP/STL/05. Set.md",
-    "CP/STL/04. Vector of  Tuple.md",
-    "CP/STL/03. Vector of Pairs.md",
-    "CP/STL/02. 2D vector.md",
-    "CP/STL/01. Vector.md",
-    "CP/STL/00_STL_Index.md",
-    "NEETCODE_150/STACK/2.4 Daily Temperatures.md",
-    "NEETCODE_150/STACK/2. Stack.md",
-    "NEETCODE_150/STACK/2.3 Evaluate Reverse Polish Notation.md",
-    "MACHINE LEARNING/NUMPY/2. NumPy Array Indexing & Slicing.md",
-    "MACHINE LEARNING/NUMPY/1. NumPy Array.md",
-    "MACHINE LEARNING/NUMPY/3. NumPy Array Operations.md",
-    "MACHINE LEARNING/NUMPY/0. NumPy.md",
-    "gfhfgh.md",
-    "CP/GRAPH THEORY/09. Depth-First Search (DFS).md",
-    "CP/DP/02. 0-1 Knapsack Problem (Huge Bucket Size. W 1e9).md",
-    "CP/DP/00_Dynamic_Programming.md",
-    "CP/GRAPH THEORY/02. Graph Representation.md",
-    "CP/GRAPH THEORY/01. Graph & Tree Terminology.md",
-    "Untitled",
     "NEETCODE_150/STACK",
     "NEETCODE_150/ARRAYS & HASHING",
     "NEETCODE_150",

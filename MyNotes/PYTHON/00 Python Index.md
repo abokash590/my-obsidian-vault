@@ -1,0 +1,18 @@
+ML শেখার জন্য দরকারি core Python fundamentals — টপিক অনুযায়ী আলাদা নোট। (NumPy / Pandas এখানে নেই, ওগুলো আলাদা নোটে আছে)
+
+1. [[01_Variables_DataTypes]] 
+2. [[02_Operators]] 
+3. [[03_Input_Output]]
+4. [[04_Control_Flow]] 
+5. [[05_String]] 
+6. [[06_List]] 
+7. [[07_Tuple]] 
+8. [[08_Dictionary]] 
+9. [[09_Set]] 
+10. [[10_Comprehensions]] 
+11. [[11_Functions]] 
+12. [[12_OOP_Basics]] 
+13. [[13_Exception_Handling]] 
+14. [[14_File_Handling]] 
+15. [[15_Iterators_Generators]] 
+16. [[16_Modules]]
