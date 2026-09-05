@@ -1,21 +1,21 @@
-|**Syntax**|**Description**|
-|---|---|
-|`s[i]`|i-তম index এর character|
-|`s[a:b]`|Slicing (a থেকে b-1)|
-|`s[::-1]`|Reverse|
-|`s + s2`|Concatenation|
-|`s * n`|n বার repeat|
-|`len(s)`|Length|
-|`s.lower()` / `s.upper()`|Case convert|
-|`s.strip()` / `.lstrip()` / `.rstrip()`|Whitespace/character trim|
-|`s.split(delim)`|Delimiter দিয়ে split → list|
-|`delim.join(list)`|List of string জোড়া দেওয়া|
-|`s.replace(old, new)`|Substring replace|
-|`s.find(sub)`|Index রিটার্ন, না পেলে `-1`|
-|`s.count(sub)`|Occurrence count|
-|`s.startswith(x)` / `s.endswith(x)`|Prefix/suffix চেক|
-|`s.isdigit()` / `.isalpha()` / `.isalnum()`|Character type চেক|
-|`ord(c)` / `chr(x)`|Character ↔ ASCII কোড রূপান্তর|
+| **Syntax**                                  | **Description**                |
+| ------------------------------------------- | ------------------------------ |
+| `s[i]`                                      | i-তম index এর character        |
+| `s[a:b]`                                    | Slicing (a থেকে b-1)           |
+| `s[::-1]`                                   | Reverse                        |
+| `s + s2`                                    | Concatenation                  |
+| `s * n`                                     | n বার repeat                   |
+| `len(s)`                                    | Length                         |
+| `s.lower()` / `s.upper()`                   | Case convert                   |
+| `s.strip()` / `.lstrip()` / `.rstrip()`     | Whitespace/character trim      |
+| `s.split(delim)`                            | Delimiter দিয়ে split → list   |
+| `delim.join(list)`                          | List of string জোড়া দেওয়া    |
+| `s.replace(old, new)`                       | Substring replace              |
+| `s.find(sub)`                               | Index রিটার্ন, না পেলে `-1`    |
+| `s.count(sub)`                              | Occurrence count               |
+| `s.startswith(x)` / `s.endswith(x)`         | Prefix/suffix চেক              |
+| `s.isdigit()` / `.isalpha()` / `.isalnum()` | Character type চেক             |
+| `ord(c)` / `chr(x)`                         | Character ↔ ASCII কোড রূপান্তর |
 
 ## মূল কথা
 
