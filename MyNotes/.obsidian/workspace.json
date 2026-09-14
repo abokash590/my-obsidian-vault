@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MACHINE LEARNING/PANDAS/01. Pandas Series.md",
-                "mode": "preview",
+                "file": "MACHINE LEARNING/PANDAS/02. Pandas DataFrame.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01. Pandas Series"
+              "title": "02. Pandas DataFrame"
             }
           }
         ],
@@ -226,8 +226,9 @@
   },
   "active": "efa7b1b7aa30f1c1",
   "lastOpenFiles": [
-    "MACHINE LEARNING/PANDAS/00 Pandas Index.md",
     "MACHINE LEARNING/PANDAS/01. Pandas Series.md",
+    "MACHINE LEARNING/PANDAS/02. Pandas DataFrame.md",
+    "MACHINE LEARNING/PANDAS/00 Pandas Index.md",
     "CP/DP/01. 0-1 Knapsack Problem.md",
     "MACHINE LEARNING/PANDAS",
     "CP/DP/000. Dynamic Programming (DP) - Beginner to Pro Guide.md",
@@ -252,7 +253,6 @@
     "CP/STL/04. Vector of  Tuple.md",
     "CP/STL/03. Vector of Pairs.md",
     "CP/STL/02. 2D vector.md",
-    "CP/STL/01. Vector.md",
     "PYTHON",
     "NEETCODE_150/STACK",
     "NEETCODE_150/ARRAYS & HASHING",
