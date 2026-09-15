@@ -55,6 +55,13 @@
         "a": 1,
         "rgb": 16711888
       }
+    },
+    {
+      "query": "path:\"MACHINE LEARNING\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 2278264
+      }
     }
   ],
   "collapse-display": true,
@@ -67,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.1514746096486321,
+  "scale": 1.1514746096486326,
   "close": true
 }
