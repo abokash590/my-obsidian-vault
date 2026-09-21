@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Dijstra.md",
+                "file": "CP/INTERMEDIATE GRAPH, DP, S-TREE/01 Dijstra.md",
                 "mode": "preview",
                 "source": false
               },
@@ -195,10 +195,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ef61ee18ecba6c35",
+  "active": "3d0cb96ab97a7460",
   "lastOpenFiles": [
     "CP/INTERMEDIATE GRAPH, DP, S-TREE/00 Intermediate Graph, DP, S-Tree.md",
-    "01 Dijstra.md",
+    "CP/INTERMEDIATE GRAPH, DP, S-TREE/01 Dijstra.md",
     "CP/GRAPH THEORY/02. Graph Representation.md",
     "CP/GRAPH THEORY/01. Graph & Tree Terminology.md",
     "CP/GRAPH THEORY/03. Breadth-First Search (BFS).md",
