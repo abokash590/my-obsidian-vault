@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CP/GRAPH THEORY/20. Topological Sort (Using DFS).md",
-                "mode": "source",
+                "file": "01 Dijstra.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20. Topological Sort (Using DFS)"
+              "title": "01 Dijstra"
             }
           }
         ]
@@ -197,8 +197,14 @@
   },
   "active": "ef61ee18ecba6c35",
   "lastOpenFiles": [
-    "CP/GRAPH THEORY/21. Topological Sort (DFS Method).md",
     "CP/INTERMEDIATE GRAPH, DP, S-TREE/00 Intermediate Graph, DP, S-Tree.md",
+    "01 Dijstra.md",
+    "CP/GRAPH THEORY/02. Graph Representation.md",
+    "CP/GRAPH THEORY/01. Graph & Tree Terminology.md",
+    "CP/GRAPH THEORY/03. Breadth-First Search (BFS).md",
+    "CP/STL/12. Priority Queue.md",
+    "CP/GRAPH THEORY/20. Topological Sort (Using DFS).md",
+    "CP/GRAPH THEORY/21. Topological Sort (DFS Method).md",
     "NEETCODE_150/ARRAYS & HASHING/1. Array & Hashing.md",
     "MACHINE LEARNING/PANDAS/03. Missing Data (Pandas).md",
     "CP/INTERMEDIATE GRAPH, DP, S-TREE",
@@ -219,12 +225,6 @@
     "CP/DP/05. A. Cut Ribbon (CF).md",
     "CP/DP/04. Coin Combinations II (CSES).md",
     "CP/DP/03. Coin Combinations I (CSES).md",
-    "CP/GRAPH THEORY/20. Topological Sort (Using DFS).md",
-    "CP/GRAPH THEORY/18. Cycle Detection (Undirected Graph).md",
-    "CP/GRAPH THEORY/19. Topological Sort (Kahn's Algorithm).md",
-    "CP/GRAPH THEORY/12. Subtree Size in a Tree.md",
-    "CP/STL/07. Multiset.md",
-    "CP/STL/06. Set Vs Vector.md",
     "PYTHON",
     "NEETCODE_150/STACK",
     "NEETCODE_150/ARRAYS & HASHING",
