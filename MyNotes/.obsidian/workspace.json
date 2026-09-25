@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CP/INTERMEDIATE GRAPH, DP, S-TREE/01 Dijstra.md",
+                "file": "CP/STL/10. Queue.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 Dijstra"
+              "title": "10. Queue"
             }
           }
         ]
@@ -195,10 +195,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3d0cb96ab97a7460",
+  "active": "ef61ee18ecba6c35",
   "lastOpenFiles": [
-    "CP/INTERMEDIATE GRAPH, DP, S-TREE/00 Intermediate Graph, DP, S-Tree.md",
     "CP/INTERMEDIATE GRAPH, DP, S-TREE/01 Dijstra.md",
+    "CP/INTERMEDIATE GRAPH, DP, S-TREE/00 Intermediate Graph, DP, S-Tree.md",
     "CP/GRAPH THEORY/02. Graph Representation.md",
     "CP/GRAPH THEORY/01. Graph & Tree Terminology.md",
     "CP/GRAPH THEORY/03. Breadth-First Search (BFS).md",
