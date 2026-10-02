@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CP/STL/08. Map.md",
+                "file": "CP/NUMBER THEORY/05. Number of Divisors (Divisor Count Sieve).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08. Map"
+              "title": "05. Number of Divisors (Divisor Count Sieve)"
             }
           }
         ]
@@ -195,15 +195,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3d0cb96ab97a7460",
+  "active": "ef61ee18ecba6c35",
   "lastOpenFiles": [
-    "CP/INTERMEDIATE GRAPH, DP, S-TREE/01 Dijstra.md",
+    "CP/NUMBER THEORY/04. Lowest Divisor of a Number.md",
+    "CP/STL/08. Map.md",
+    "CP/STL/09. Stack.md",
     "CP/STL/10. Queue.md",
+    "CP/STL/11. Deque.md",
+    "CP/STL/12. Priority Queue.md",
+    "CP/STL/13. Policy Based Data Structure (PBDS).md",
+    "CP/STL/14. Unordered Set.md",
+    "CP/STL/15. String.md",
+    "CP/NUMBER THEORY/02. Sieve of Eratosthenes.md",
+    "CP/NUMBER THEORY/01. Harmony Series.md",
+    "CP/INTERMEDIATE GRAPH, DP, S-TREE/01 Dijstra.md",
     "CP/INTERMEDIATE GRAPH, DP, S-TREE/00 Intermediate Graph, DP, S-Tree.md",
     "CP/GRAPH THEORY/02. Graph Representation.md",
     "CP/GRAPH THEORY/01. Graph & Tree Terminology.md",
     "CP/GRAPH THEORY/03. Breadth-First Search (BFS).md",
-    "CP/STL/12. Priority Queue.md",
     "CP/GRAPH THEORY/20. Topological Sort (Using DFS).md",
     "CP/GRAPH THEORY/21. Topological Sort (DFS Method).md",
     "NEETCODE_150/ARRAYS & HASHING/1. Array & Hashing.md",
@@ -216,15 +225,6 @@
     "MACHINE LEARNING/PANDAS/01. Pandas Series.md",
     "MACHINE LEARNING/PANDAS",
     "CP/DP/000. Dynamic Programming (DP) - Beginner to Pro Guide.md",
-    "CP/DP/02. 0-1 Knapsack Problem (Huge Bucket Size. W 1e9).md",
-    "CP/DP/10. Recursive → Iterative DP Convert.md",
-    "CP/DP/00_Dynamic_Programming.md",
-    "CP/DP/09. Longest Palindromic Subsequence.md",
-    "CP/DP/08. Queries for Palindrome in Substring.md",
-    "CP/DP/07. 2D DP (Retrival).md",
-    "CP/DP/06. List of Minimum Coins (Retrieval).md",
-    "CP/DP/05. A. Cut Ribbon (CF).md",
-    "CP/DP/04. Coin Combinations II (CSES).md",
     "PYTHON",
     "NEETCODE_150/STACK",
     "NEETCODE_150/ARRAYS & HASHING",
