@@ -1,5 +1,0 @@
-9980395b0bb4d85de44c279177b52f978576b067
-
-## Client ID
-
-`Ov23lir1kdyckVMcEDEk`
